@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+ml/models/*.joblib
+ml/models/*.meta.json
+ml/models/registry.json
