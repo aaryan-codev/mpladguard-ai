@@ -1,0 +1,17 @@
+{
+  "default": {
+    "model_file": "default_model_20260827T210548Z.joblib",
+    "meta_file": "default_model_20260827T210548Z.meta.json",
+    "updated_at": "2026-08-27T21:05:48.574616+00:00"
+  },
+  "bridge": {
+    "model_file": "bridge_model_20260827T210548Z.joblib",
+    "meta_file": "bridge_model_20260827T210548Z.meta.json",
+    "updated_at": "2026-08-27T21:05:48.786317+00:00"
+  },
+  "road": {
+    "model_file": "road_model_20260827T210548Z.joblib",
+    "meta_file": "road_model_20260827T210548Z.meta.json",
+    "updated_at": "2026-08-27T21:05:49.000384+00:00"
+  }
+}
