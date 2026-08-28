@@ -1,15 +1,13 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+"""
+Legacy entry point, kept for backward compatibility with the original
+`uvicorn main:app` command from inside backend/.
 
-app = FastAPI()
+The application has been restructured into the app/ package (see
+app/main.py) with proper routers, schemas, services, and ML integration.
+This file simply re-exports that app so existing commands keep working.
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-@app.get("/api/health")
-def health():
-    return {"status": "online", "system": "MPLADGuard-AI"}
+Prefer running:
+    uvicorn app.main:app --reload
+from inside backend/, per backend/README.md.
+"""
+from app.main import app  # noqa: F401

@@ -1,0 +1,77 @@
+{
+  "model_name": "mpladguard-isolation-forest",
+  "version": "1.0.0",
+  "category": "default",
+  "trained_at": "20260827T210548Z",
+  "training_samples": 100,
+  "features": [
+    "cost_deviation",
+    "fund_utilization_ratio",
+    "financial_physical_progress_gap",
+    "delay_ratio",
+    "inspection_gap_days",
+    "contract_estimate_ratio",
+    "cost_per_beneficiary",
+    "tender_estimate_ratio",
+    "bid_competition_indicator",
+    "unresolved_issue_ratio"
+  ],
+  "contamination": 0.08,
+  "anomalies_detected": 8,
+  "anomaly_pct": 8.0,
+  "score_reference": {
+    "min": -0.6724010926296214,
+    "max": -0.39813719152907606,
+    "mean": -0.47563931039892765,
+    "std": 0.05012607589202682,
+    "p25": -0.4986615654852934,
+    "p50": -0.4639385314577105,
+    "p75": -0.4428016636320827
+  },
+  "feature_reference": {
+    "cost_deviation": {
+      "median": 0.043237746022907614,
+      "std": 0.20084936552580937
+    },
+    "fund_utilization_ratio": {
+      "median": 0.7970958128945483,
+      "std": 0.1477037802437872
+    },
+    "financial_physical_progress_gap": {
+      "median": 0.9000000000000057,
+      "std": 5.7175221393014715
+    },
+    "delay_ratio": {
+      "median": 1.11625,
+      "std": 1.8588057152870072
+    },
+    "inspection_gap_days": {
+      "median": 1035.0,
+      "std": 135.51836001073804
+    },
+    "contract_estimate_ratio": {
+      "median": 0.9627712939404053,
+      "std": 0.042157140326061444
+    },
+    "cost_per_beneficiary": {
+      "median": 1272.1660439184964,
+      "std": 1154.0451752332553
+    },
+    "tender_estimate_ratio": {
+      "median": 0.9289822231948204,
+      "std": 0.0445894249662566
+    },
+    "bid_competition_indicator": {
+      "median": 5.0,
+      "std": 1.7692936443677179
+    },
+    "unresolved_issue_ratio": {
+      "median": 0.125,
+      "std": 0.3874587791695467
+    }
+  },
+  "dataset_type_breakdown": {
+    "synthetic": 100
+  },
+  "model_file": "default_model_20260827T210548Z.joblib"
+}

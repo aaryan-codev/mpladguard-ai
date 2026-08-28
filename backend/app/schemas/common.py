@@ -1,0 +1,14 @@
+from __future__ import annotations
+
+from pydantic import BaseModel
+
+
+class ErrorResponse(BaseModel):
+    detail: str
+
+
+class HealthResponse(BaseModel):
+    status: str
+    system: str
+    version: str
+    ml_models_available: bool
