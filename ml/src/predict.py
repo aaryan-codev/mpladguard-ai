@@ -121,8 +121,13 @@ def _resolve_category(project: dict) -> str:
 
 def predict_risk(project: dict[str, Any]) -> RiskAssessment:
     """
-    Run the full inference pipeline for a single project provided as a dict
-    matching the raw dataset schema (see data_loader.REQUIRED_COLUMNS).
+    Run the full inference pipeline for a single project provided as a dict.
+
+    Dispatches to domain-specific validation/feature-engineering/explain
+    functions based on the "domain" flag stored in the resolved model's
+    metadata (set by each domain's train.py). Projects whose model has no
+    "domain" key (the original default/bridge/school models) go through
+    the original generic pipeline unchanged.
     """
     if "project_id" not in project or not project["project_id"]:
         raise PredictionError("project_id is required for risk analysis.")
@@ -131,35 +136,68 @@ def predict_risk(project: dict[str, Any]) -> RiskAssessment:
     # feature engineering work on (possibly incomplete) input data.
     _load_registry()
 
-    warnings: list[str] = []
-
-    df = pd.DataFrame([project])
-    # Reuse the exact same validation used during training.
-    try:
-        df, report = validate_and_clean(df)
-    except KeyError as exc:
-        raise PredictionError(f"Project data is missing required fields: {exc}") from exc
-
-    if len(df) == 0:
-        raise PredictionError(
-            "Project data failed validation (missing essential fields such as "
-            "project_id, estimated_cost, or actual_cost)."
-        )
-    if report.issues:
-        warnings.extend(report.issues)
-
-    try:
-        df = engineer_features(df)
-    except KeyError as exc:
-        raise PredictionError(f"Project data is missing required fields: {exc}") from exc
-
     category_key = _resolve_category(project)
     pipeline, metadata = _load_model_bundle(category_key)
 
-    try:
-        X = get_feature_matrix(df)
-    except KeyError as exc:
-        raise PredictionError(f"Engineered features missing: {exc}") from exc
+    warnings: list[str] = []
+    domain = metadata.get("domain")
+
+    if domain == "road":
+        from .road import config as road_config
+        from .road.feature_engineering import engineer_features as road_engineer_features
+        from .road.feature_engineering import get_feature_matrix as road_get_feature_matrix
+        from .road.validation import validate_and_clean as road_validate_and_clean
+
+        # ground_truth_anomaly must never reach feature engineering / the model.
+        project = {k: v for k, v in project.items() if k != "ground_truth_anomaly"}
+
+        df = pd.DataFrame([project])
+        try:
+            df, report = road_validate_and_clean(df)
+        except KeyError as exc:
+            raise PredictionError(f"Project data is missing required road fields: {exc}") from exc
+
+        if len(df) == 0:
+            raise PredictionError(
+                "Project data failed road validation (missing essential fields such as "
+                "project_id, estimated_cost_lakh, actual_expenditure_lakh, or road_length_km)."
+            )
+        if report.issues:
+            warnings.extend(report.issues)
+
+        try:
+            df = road_engineer_features(df)
+            X = road_get_feature_matrix(df)
+        except KeyError as exc:
+            raise PredictionError(f"Road project data is missing required fields: {exc}") from exc
+
+        engineered_features = road_config.ENGINEERED_FEATURES
+        feature_descriptions = road_config.FEATURE_DESCRIPTIONS
+    else:
+        df = pd.DataFrame([project])
+        # Reuse the exact same validation used during training.
+        try:
+            df, report = validate_and_clean(df)
+        except KeyError as exc:
+            raise PredictionError(f"Project data is missing required fields: {exc}") from exc
+
+        if len(df) == 0:
+            raise PredictionError(
+                "Project data failed validation (missing essential fields such as "
+                "project_id, estimated_cost, or actual_cost)."
+            )
+        if report.issues:
+            warnings.extend(report.issues)
+
+        try:
+            df = engineer_features(df)
+            X = get_feature_matrix(df)
+        except KeyError as exc:
+            raise PredictionError(f"Project data is missing required fields: {exc}") from exc
+
+        engineered_features = None  # use explain.py's generic config defaults
+        feature_descriptions = None
+
     X_transformed = pipeline["preprocessor"].transform(X)
 
     raw_score = float(pipeline["model"].score_samples(X_transformed)[0])
@@ -169,7 +207,12 @@ def predict_risk(project: dict[str, Any]) -> RiskAssessment:
     risk_level = risk_level_from_score(risk_score)
 
     feature_values = X.iloc[0].to_dict()
-    risk_factors = generate_risk_factors(feature_values, metadata["feature_reference"])
+    risk_factors = generate_risk_factors(
+        feature_values,
+        metadata["feature_reference"],
+        engineered_features=engineered_features,
+        feature_descriptions=feature_descriptions,
+    )
 
     if metadata.get("dataset_type_breakdown", {}).get("real", 0) == 0:
         warnings.append(

@@ -10,8 +10,8 @@
     "updated_at": "2026-08-27T21:05:48.786317+00:00"
   },
   "road": {
-    "model_file": "road_model_20260827T210548Z.joblib",
-    "meta_file": "road_model_20260827T210548Z.meta.json",
-    "updated_at": "2026-08-27T21:05:49.000384+00:00"
+    "model_file": "road_model_20260829T164909Z.joblib",
+    "meta_file": "road_model_20260829T164909Z.meta.json",
+    "updated_at": "2026-08-29T16:49:09.766692+00:00"
   }
 }

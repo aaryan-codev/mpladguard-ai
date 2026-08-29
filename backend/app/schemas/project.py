@@ -1,92 +1,105 @@
+"""
+Road-domain project schemas -- the ACTIVE schemas for the current SIH
+MVP (road projects only).
+
+The original generic multi-category ProjectBase/ProjectOut schemas are
+preserved unchanged in `project_generic.py`. They are not wired to any
+route right now, but are the intended foundation for bridge/school/
+water/etc. once those domains get their own dataset + ML module,
+exactly like ml/src/road/ was added alongside the generic ml/src/
+pipeline.
+"""
 from __future__ import annotations
 
 from typing import Optional
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field
 
 
-class ProjectBase(BaseModel):
+class RoadProjectCreate(BaseModel):
     """
-    Mirrors the raw MPLADS project schema used by the ML pipeline
-    (see ml/src/data_loader.REQUIRED_COLUMNS). Kept intentionally close to
-    that schema so a project record can be sent straight to ML risk
-    analysis without remapping.
+    Payload for POST /api/projects. Mirrors the raw columns in
+    mplads_road_projects_synthetic.csv (see ml/src/road/config.
+    REQUIRED_COLUMNS) so a created project can be sent straight to
+    road risk analysis without remapping.
     """
 
     project_id: str
+    state: str
+    district: str
+    parliamentary_constituency: str
+    implementing_agency: str
+    road_type: str
+    road_length_km: float = Field(..., gt=0)
+    estimated_cost_lakh: float = Field(..., gt=0)
+    actual_expenditure_lakh: float = Field(..., gt=0)
+    planned_duration_days: int = Field(..., gt=0)
+    actual_duration_days: int = Field(..., gt=0)
+    project_start_date: str
+    project_completion_date: Optional[str] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
+    project_status: str = Field(..., pattern="^(Completed|Ongoing|Delayed)$")
+
+
+class DomainDetails(BaseModel):
+    road_type: str
+    road_length_km: float
+
+
+class FinancialInfo(BaseModel):
+    estimated_cost_lakh: float
+    actual_expenditure_lakh: float
+    cost_deviation_pct: Optional[float] = None
+    currency_unit: str = "INR_lakh"
+
+
+class ScheduleInfo(BaseModel):
+    project_start_date: Optional[str] = None
+    project_completion_date: Optional[str] = None
+    planned_duration_days: int
+    actual_duration_days: int
+    delay_days: int
+    delay_pct: Optional[float] = None
+
+
+class DemoEnrichment(BaseModel):
+    """
+    Illustrative contractor/tender/beneficiary data. NOT present in the
+    real road dataset, generated deterministically for UI polish, and
+    NEVER used as ML input -- see backend/app/services/road_adapter.py.
+    """
+
+    is_demo_data: bool = True
+    note: str
+    contractor_id: str
+    contractor_name: str
+    tender_id: str
+    procurement_method: str
+    bid_count: int
+    winning_bid_lakh: float
+    second_lowest_bid_lakh: float
+    estimated_beneficiaries: int
+    population_served: int
+
+
+class ProjectOut(BaseModel):
+    """Canonical project record served by GET /api/projects and /api/projects/{id}."""
+
+    project_id: str
+    project_category: str = "road"
     project_name: str
-    project_type: str
-    work_category: str
     state: str
     district: str
     constituency: str
-    location: Optional[str] = None
+    implementing_agency: str
     latitude: Optional[float] = None
     longitude: Optional[float] = None
-
-    estimated_cost: float = Field(..., ge=0)
-    sanctioned_amount: float = Field(..., ge=0)
-    released_amount: float = Field(..., ge=0)
-    utilized_amount: float = Field(..., ge=0)
-    actual_cost: float = Field(..., ge=0)
-    number_of_payments: int = Field(..., ge=0)
-
-    sanction_date: str
-    work_order_date: str
-    planned_completion_date: str
-    actual_completion_date: Optional[str] = None
-    delay_days: Optional[int] = None
-
-    physical_progress: float = Field(..., ge=0, le=100)
-    financial_progress: float = Field(..., ge=0, le=100)
+    domain_details: DomainDetails
+    financial: FinancialInfo
+    schedule: ScheduleInfo
     work_status: str
-
-    inspection_count: int = Field(..., ge=0)
-    last_inspection_date: Optional[str] = None
-    issues_reported: int = Field(0, ge=0)
-    issues_resolved: int = Field(0, ge=0)
-
-    implementing_agency: str
-    agency_type: str
-
-    contractor_id: Optional[str] = None
-    contractor_name: Optional[str] = None
-    contract_value: Optional[float] = Field(None, ge=0)
-
-    tender_id: Optional[str] = None
-    estimated_tender_value: Optional[float] = Field(None, ge=0)
-    bid_count: Optional[int] = Field(None, ge=0)
-    winning_bid: Optional[float] = Field(None, ge=0)
-    second_lowest_bid: Optional[float] = Field(None, ge=0)
-    procurement_method: Optional[str] = None
-
-    estimated_beneficiaries: Optional[int] = Field(None, ge=0)
-    population_served: Optional[int] = Field(None, ge=0)
-
-    dataset_type: str = "synthetic"
-
-    @field_validator("dataset_type")
-    @classmethod
-    def validate_dataset_type(cls, v: str) -> str:
-        if v not in ("real", "synthetic"):
-            raise ValueError("dataset_type must be 'real' or 'synthetic'")
-        return v
-
-    @field_validator("issues_resolved")
-    @classmethod
-    def resolved_not_greater_than_reported(cls, v, info):
-        reported = info.data.get("issues_reported")
-        if reported is not None and v > reported:
-            raise ValueError("issues_resolved cannot exceed issues_reported")
-        return v
-
-
-class ProjectCreate(ProjectBase):
-    pass
-
-
-class ProjectOut(ProjectBase):
-    pass
+    demo_enrichment: DemoEnrichment
 
 
 class ProjectListResponse(BaseModel):

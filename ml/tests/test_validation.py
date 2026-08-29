@@ -65,3 +65,5 @@ def test_drops_rows_missing_essential_fields():
     cleaned, report = validate_and_clean(df)
     assert len(cleaned) == 0
     assert report.dropped_rows == 1
+
+

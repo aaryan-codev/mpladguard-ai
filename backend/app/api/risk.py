@@ -7,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from ..schemas.risk import RiskAnalyzeRequest, RiskAnalyzeResponse
 from ..services import project_service, risk_service
 from ..services.ml_service import MLModelUnavailableError, MLServiceError
+from ..services.road_adapter import to_ml_payload
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/risk", tags=["risk"])
@@ -15,11 +16,13 @@ router = APIRouter(prefix="/api/risk", tags=["risk"])
 @router.post("/analyze", response_model=RiskAnalyzeResponse)
 def analyze_risk(payload: RiskAnalyzeRequest) -> RiskAnalyzeResponse:
     try:
-        assessment = risk_service.analyze(payload.model_dump())
+        ml_payload = to_ml_payload(payload.model_dump())
+        assessment = risk_service.analyze(ml_payload)
     except MLModelUnavailableError as exc:
         raise HTTPException(
             status_code=503,
-            detail=f"No trained model available yet. Train one first: python -m ml.src.train ({exc})",
+            detail=f"No trained road model available yet. Train one first: "
+            f"python -m ml.src.road.train ({exc})",
         )
     except MLServiceError as exc:
         raise HTTPException(status_code=500, detail=str(exc))

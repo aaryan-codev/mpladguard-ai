@@ -1,19 +1,10 @@
-"""
-Road-domain risk schemas -- the ACTIVE schemas for the current SIH MVP.
-
-The generic Literal["medium","high"]-severity RiskFactor/RiskAnalyzeResponse
-shape is intentionally kept identical to the original generic pipeline
-(see risk_generic.py) -- this is the part of the contract designed to
-stay domain-independent so the frontend never needs to change when a
-new domain's model is added.
-"""
 from __future__ import annotations
 
 from typing import Literal, Optional
 
 from pydantic import BaseModel
 
-from .project import RoadProjectCreate
+from .project_generic import ProjectBase
 
 
 class RiskFactor(BaseModel):
@@ -24,8 +15,8 @@ class RiskFactor(BaseModel):
     z_score: Optional[float] = None
 
 
-class RiskAnalyzeRequest(RoadProjectCreate):
-    """A single road project payload to run through the anomaly detection model."""
+class RiskAnalyzeRequest(ProjectBase):
+    """A single project payload to run through the anomaly detection model."""
 
 
 class RiskAnalyzeResponse(BaseModel):

@@ -4,7 +4,7 @@ import logging
 
 from fastapi import APIRouter, HTTPException, Query
 
-from ..schemas.project import ProjectCreate, ProjectListResponse, ProjectOut
+from ..schemas.project import ProjectListResponse, ProjectOut, RoadProjectCreate
 from ..services import project_service
 
 logger = logging.getLogger(__name__)
@@ -30,7 +30,7 @@ def get_project(project_id: str) -> ProjectOut:
 
 
 @router.post("", response_model=ProjectOut, status_code=201)
-def create_project(project: ProjectCreate) -> ProjectOut:
+def create_project(project: RoadProjectCreate) -> ProjectOut:
     try:
         created = project_service.create_project(project.model_dump())
     except ValueError as exc:

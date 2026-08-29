@@ -1,0 +1,73 @@
+:root {
+  /* Core palette -- lifted directly from the approved mockup */
+  --navy: #0f2d5e;
+  --navy-dark: #0a2142;
+  --green: #0e9e5a;
+  --green-light: #dcfce7;
+  --green-dark: #14532d;
+  --blue: #0d5dad;
+  --blue-dark: #0d4a8a;
+  --amber: #f59e0b;
+  --amber-light: #fef3c7;
+  --amber-dark: #b45309;
+  --red: #ef4444;
+  --red-light: #fdecec;
+  --red-dark: #b91c1c;
+
+  --bg-page: #f5fbff;
+  --bg-page-alt: #f2f8f5;
+  --bg-card: #ffffff;
+  --bg-muted: #f8fafc;
+  --bg-input: #fcfdff;
+
+  --border: #e2e8f0;
+  --border-input: #dde3ea;
+
+  --text-primary: #0f2d5e;
+  --text-body: #334155;
+  --text-muted: #64748b;
+  --text-faint: #94a3b8;
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.06);
+  --shadow-lifted: 0 20px 50px rgba(0, 0, 0, 0.08);
+
+  --font-body: 'Poppins', sans-serif;
+
+  /* Risk level colors -- match the mockup's score badges (s-green/s-yellow/s-red) */
+  --risk-low: #16a34a;
+  --risk-low-bg: #dcfce7;
+  --risk-medium: #f59e0b;
+  --risk-medium-bg: #fef3c7;
+  --risk-high: #ef4444;
+  --risk-high-bg: #fdecec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: var(--font-body);
+}

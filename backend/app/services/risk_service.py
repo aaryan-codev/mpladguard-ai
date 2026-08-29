@@ -34,9 +34,9 @@ def analyze(project: dict[str, Any]) -> RiskAssessment:
 
 
 def analyze_by_project_id(project_id: str) -> RiskAssessment:
-    """Look up a known project and run risk analysis on it."""
-    project = project_service.get_project(project_id)
-    return analyze(project)
+    """Look up a known project's raw ML fields and run risk analysis on it."""
+    ml_payload = project_service.get_ml_payload(project_id)
+    return analyze(ml_payload)
 
 
 def get_cached_risk(project_id: str) -> RiskAssessment:

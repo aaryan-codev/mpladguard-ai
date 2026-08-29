@@ -51,7 +51,8 @@ class Settings(BaseSettings):
     def effective_projects_csv_path(self) -> str:
         if self.projects_csv_path:
             return self.projects_csv_path
-        return str(REPO_ROOT / "ml" / "data" / "sample" / "sample_projects.csv")
+        # Current MVP scope: road projects only.
+        return str(REPO_ROOT / "ml" / "data" / "raw" / "mplads_road_projects_synthetic.csv")
 
     @property
     def cors_origins_list(self) -> list[str]:

@@ -28,13 +28,19 @@ HIGH_Z_THRESHOLD = 2.5
 MAX_RISK_FACTORS = 5
 
 
-def compute_feature_reference(feature_df) -> dict:
+def compute_feature_reference(feature_df, engineered_features: list[str] | None = None) -> dict:
     """
     Compute per-feature median/std reference stats from the (imputed)
     training feature matrix. Saved into model metadata.
+
+    engineered_features: which columns to compute reference stats for.
+    Defaults to the generic pipeline's config.ENGINEERED_FEATURES for
+    backward compatibility; domain plugins (e.g. ml/src/road) pass
+    their own feature list.
     """
+    engineered_features = engineered_features or config.ENGINEERED_FEATURES
     reference = {}
-    for col in config.ENGINEERED_FEATURES:
+    for col in engineered_features:
         series = feature_df[col].dropna()
         if len(series) == 0:
             reference[col] = {"median": 0.0, "std": 1.0}
@@ -60,10 +66,7 @@ def _severity(z: float) -> str | None:
     return None
 
 
-def _direction_word(feature: str, z: float) -> str:
-    direction = config.FEATURE_RISK_DIRECTION.get(feature, 0)
-    if direction == 0:
-        return "higher" if z > 0 else "lower"
+def _direction_word(z: float) -> str:
     return "higher" if z > 0 else "lower"
 
 
@@ -71,15 +74,23 @@ def generate_risk_factors(
     feature_values: dict[str, Any],
     feature_reference: dict,
     max_factors: int = MAX_RISK_FACTORS,
+    engineered_features: list[str] | None = None,
+    feature_descriptions: dict | None = None,
 ) -> list[dict]:
     """
     Compare a project's engineered features against the training reference
     distribution and return the most unusual ones as structured, explained
     risk factors, sorted by severity (most unusual first).
+
+    engineered_features / feature_descriptions: override the generic
+    pipeline's config for domain-specific feature sets (e.g. road).
+    Defaults preserve existing behavior for the generic pipeline.
     """
+    engineered_features = engineered_features or config.ENGINEERED_FEATURES
+    feature_descriptions = feature_descriptions or config.FEATURE_DESCRIPTIONS
     candidates = []
 
-    for feature in config.ENGINEERED_FEATURES:
+    for feature in engineered_features:
         value = feature_values.get(feature)
         if value is None or (isinstance(value, float) and np.isnan(value)):
             continue
@@ -90,8 +101,8 @@ def generate_risk_factors(
         if severity is None:
             continue
 
-        direction = _direction_word(feature, z)
-        description = config.FEATURE_DESCRIPTIONS.get(feature, feature)
+        direction = _direction_word(z)
+        description = feature_descriptions.get(feature, feature)
         explanation = (
             f"{description} is {direction} than typical for similar projects "
             f"(value={round(value, 3)}, reference median={round(ref['median'], 3)})."

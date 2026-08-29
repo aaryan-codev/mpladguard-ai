@@ -1,0 +1,501 @@
+project_id,state,district,parliamentary_constituency,implementing_agency,road_type,road_length_km,estimated_cost_lakh,actual_expenditure_lakh,planned_duration_days,actual_duration_days,project_start_date,project_completion_date,latitude,longitude,project_status,ground_truth_anomaly
+MPLADS-RD-00001,Kerala,Thrissur,Thrissur,District Rural Development Agency (DRDA),State Highway Link,5.45,121.02,130.53,90,107,2020-05-14,2020-08-29,10.718309,76.209105,Completed,0
+MPLADS-RD-00002,Karnataka,Bengaluru Urban,Bangalore North,State PWD Division,Village Road,3.97,17.22,17.45,116,117,2022-06-28,2022-10-23,12.935201,77.496552,Completed,0
+MPLADS-RD-00003,Maharashtra,Pune,Pune,CPWD Division,Village Road,3.09,6.16,6.17,93,113,2022-08-09,2022-11-30,18.606203,73.917423,Completed,0
+MPLADS-RD-00004,Tamil Nadu,Chennai,Chennai Central,Panchayati Raj Engineering Department,State Highway Link,2.52,36.26,34.97,68,74,2023-03-09,2023-05-22,13.169837,80.376915,Delayed,0
+MPLADS-RD-00005,Haryana,Faridabad,Faridabad,District Rural Development Agency (DRDA),State Highway Link,5.75,260.03,245.45,100,132,2019-06-03,2019-10-13,28.625744,77.221451,Delayed,1
+MPLADS-RD-00006,Gujarat,Ahmedabad,Ahmedabad East,Rural Engineering Services,Village Road,1.97,5.44,5.57,60,87,2023-01-02,2023-03-30,23.03837,72.510023,Delayed,0
+MPLADS-RD-00007,Madhya Pradesh,Bhopal,Bhopal,District Rural Development Agency (DRDA),Rural Link Road,5.79,25.51,25.04,154,179,2022-09-19,2023-03-17,23.2668,77.318152,Completed,0
+MPLADS-RD-00008,Odisha,Cuttack,Cuttack,Panchayati Raj Engineering Department,Rural Link Road,2.01,13.62,14.83,62,92,2020-12-23,2021-03-25,20.582861,85.830114,Delayed,0
+MPLADS-RD-00009,Telangana,Hyderabad,Hyderabad,Panchayati Raj Engineering Department,Urban Internal Road,1.43,17.93,13.74,60,35,2022-04-05,,17.463454,78.56434,Ongoing,0
+MPLADS-RD-00010,Odisha,Ganjam,Berhampur,CPWD Division,State Highway Link,5.07,82.37,45.64,95,52,2024-07-14,,19.298993,84.692352,Ongoing,0
+MPLADS-RD-00011,Jharkhand,Dhanbad,Dhanbad,CPWD Division,Rural Link Road,2.14,9.35,10.68,61,61,2022-09-02,2022-11-02,23.865545,86.387615,Delayed,0
+MPLADS-RD-00012,Bihar,Muzaffarpur,Muzaffarpur,State PWD Division,State Highway Link,10.32,139.08,261.89,150,101,2023-10-31,2024-02-22,26.004911,85.408511,Delayed,1
+MPLADS-RD-00013,West Bengal,Kolkata,Kolkata Dakshin,Municipal Corporation,State Highway Link,5.12,77.86,81.01,106,132,2021-05-23,2021-10-02,22.775399,88.379081,Completed,0
+MPLADS-RD-00014,Odisha,Ganjam,Berhampur,State PWD Division,Village Road,3.52,10.69,10.41,80,87,2022-08-25,2022-11-20,19.280772,84.887296,Completed,0
+MPLADS-RD-00015,Assam,Silchar,Silchar,Block Development Office,Urban Internal Road,1.2,29.13,32.35,45,74,2023-09-20,2023-12-03,24.914142,92.745317,Delayed,1
+MPLADS-RD-00016,Chhattisgarh,Durg,Durg,Panchayati Raj Engineering Department,State Highway Link,10.09,170.62,153.71,134,146,2019-07-05,2019-11-28,21.252854,81.288879,Completed,0
+MPLADS-RD-00017,Telangana,Hyderabad,Hyderabad,Municipal Corporation,Village Road,3.03,15.18,17.65,74,196,2019-05-12,2019-11-24,17.346228,78.584823,Delayed,1
+MPLADS-RD-00018,West Bengal,Howrah,Howrah,Block Development Office,Rural Link Road,3.03,26.7,46.42,87,89,2019-12-09,2020-03-07,22.569832,88.206919,Completed,1
+MPLADS-RD-00019,Maharashtra,Nagpur,Nagpur,Block Development Office,Urban Internal Road,1.7,12.07,6.98,57,30,2020-07-18,,21.160846,79.104237,Ongoing,0
+MPLADS-RD-00020,Chhattisgarh,Bilaspur,Bilaspur,Municipal Corporation,Village Road,1.0,2.54,2.42,45,48,2022-11-11,2022-12-29,21.977403,82.17124,Completed,0
+MPLADS-RD-00021,Madhya Pradesh,Gwalior,Gwalior,State PWD Division,Village Road,3.1,11.46,10.53,72,102,2023-02-13,2023-05-26,26.28567,78.10938,Delayed,0
+MPLADS-RD-00022,Maharashtra,Thane,Thane,Block Development Office,Village Road,3.38,16.69,17.56,96,112,2023-05-05,2023-08-25,19.116464,72.926544,Completed,0
+MPLADS-RD-00023,Punjab,Patiala,Patiala,State PWD Division,Rural Link Road,5.87,36.01,33.9,120,138,2022-05-14,2022-09-29,30.281114,76.335252,Completed,0
+MPLADS-RD-00024,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,Zilla Parishad,Village Road,1.06,3.82,3.55,64,86,2019-09-23,2019-12-18,22.964881,86.268836,Delayed,0
+MPLADS-RD-00025,Haryana,Karnal,Karnal,Zilla Parishad,Village Road,2.29,6.77,7.26,86,87,2022-05-07,2022-08-02,29.802996,76.925157,Completed,0
+MPLADS-RD-00026,Uttar Pradesh,Gorakhpur,Gorakhpur,CPWD Division,State Highway Link,4.96,63.65,55.96,69,89,2025-02-10,2025-05-10,26.72439,83.353556,Delayed,0
+MPLADS-RD-00027,Rajasthan,Kota,Kota,Rural Engineering Services,Rural Link Road,2.22,13.38,12.81,73,115,2020-09-20,2021-01-13,25.210349,76.024601,Delayed,0
+MPLADS-RD-00028,Punjab,Jalandhar,Jalandhar,Block Development Office,Village Road,0.57,2.03,2.19,53,67,2021-03-25,2021-05-31,31.353263,75.433511,Delayed,0
+MPLADS-RD-00029,Bihar,Patna,Patna Sahib,Rural Engineering Services,State Highway Link,3.78,60.11,55.0,88,110,2025-03-15,2025-07-03,25.676516,85.152325,Delayed,0
+MPLADS-RD-00030,Rajasthan,Jaipur,Jaipur,District Rural Development Agency (DRDA),Village Road,3.23,10.41,9.85,80,98,2022-11-20,2023-02-26,26.917796,75.85499,Delayed,0
+MPLADS-RD-00031,Assam,Jorhat,Jorhat,Zilla Parishad,Village Road,1.41,3.72,4.03,50,66,2022-09-07,2022-11-12,26.734912,94.147076,Delayed,0
+MPLADS-RD-00032,Uttar Pradesh,Gorakhpur,Gorakhpur,CPWD Division,Urban Internal Road,1.14,8.86,9.52,45,48,2020-01-10,2020-02-27,26.815845,83.457827,Completed,0
+MPLADS-RD-00033,Madhya Pradesh,Ujjain,Ujjain,Zilla Parishad,Village Road,0.74,3.13,2.81,47,49,2024-10-01,2024-11-19,23.324326,75.774566,Completed,0
+MPLADS-RD-00034,Assam,Dibrugarh,Dibrugarh,State PWD Division,Urban Internal Road,1.22,16.51,15.6,45,49,2020-01-09,2020-02-27,27.453906,94.927097,Completed,0
+MPLADS-RD-00035,Bihar,Patna,Patna Sahib,State PWD Division,State Highway Link,9.19,128.22,132.5,149,156,2022-11-12,2023-04-17,25.654005,85.08426,Completed,0
+MPLADS-RD-00036,Haryana,Faridabad,Faridabad,CPWD Division,District Road,4.55,57.95,107.93,93,68,2021-09-01,2021-11-27,28.477274,77.141619,Delayed,1
+MPLADS-RD-00037,Uttar Pradesh,Prayagraj,Phulpur,Municipal Corporation,Rural Link Road,4.16,16.14,17.47,126,133,2023-09-20,2024-01-31,25.690189,81.858408,Completed,0
+MPLADS-RD-00038,Haryana,Karnal,Karnal,Zilla Parishad,State Highway Link,3.76,76.19,37.06,76,51,2020-08-07,,29.691104,76.999695,Ongoing,0
+MPLADS-RD-00039,Rajasthan,Kota,Kota,Zilla Parishad,Urban Internal Road,1.45,17.78,18.39,45,64,2022-08-16,2022-10-19,25.453499,75.778622,Delayed,0
+MPLADS-RD-00040,Uttarakhand,Haridwar,Haridwar,State PWD Division,State Highway Link,5.65,90.44,91.91,121,116,2021-01-19,2021-05-15,29.93056,78.406741,Completed,0
+MPLADS-RD-00041,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,CPWD Division,Village Road,1.4,5.19,2.28,62,49,2024-01-01,,22.743624,86.189267,Ongoing,0
+MPLADS-RD-00042,Maharashtra,Pune,Pune,CPWD Division,Rural Link Road,5.57,43.23,44.9,127,124,2023-04-04,2023-08-06,18.599996,73.802497,Completed,0
+MPLADS-RD-00043,Odisha,Sambalpur,Sambalpur,State PWD Division,Rural Link Road,5.19,35.43,38.56,118,126,2022-04-02,2022-08-06,21.423887,84.019008,Completed,0
+MPLADS-RD-00044,Bihar,Muzaffarpur,Muzaffarpur,Panchayati Raj Engineering Department,Village Road,1.25,5.66,5.45,45,43,2019-05-09,2019-06-21,26.136102,85.3717,Completed,0
+MPLADS-RD-00045,Kerala,Kozhikode,Kozhikode,State PWD Division,Urban Internal Road,2.12,33.46,14.76,50,30,2019-04-12,,11.223643,75.672888,Ongoing,0
+MPLADS-RD-00046,Odisha,Khordha,Bhubaneswar,District Rural Development Agency (DRDA),Rural Link Road,4.06,13.21,14.56,85,93,2019-11-14,2020-02-15,20.15469,85.833259,Completed,0
+MPLADS-RD-00047,Jharkhand,Dhanbad,Dhanbad,Municipal Corporation,Rural Link Road,1.6,10.01,3.73,69,41,2024-05-19,,23.777111,86.450931,Ongoing,0
+MPLADS-RD-00048,Bihar,Darbhanga,Darbhanga,Panchayati Raj Engineering Department,Village Road,1.74,8.34,8.71,45,60,2024-07-28,2024-09-26,26.085626,85.891085,Delayed,0
+MPLADS-RD-00049,Maharashtra,Nagpur,Nagpur,Zilla Parishad,Urban Internal Road,2.11,27.62,29.31,58,66,2020-05-03,2020-07-08,21.203043,79.038069,Delayed,0
+MPLADS-RD-00050,Chhattisgarh,Durg,Durg,Panchayati Raj Engineering Department,Village Road,1.75,10.41,9.76,68,90,2020-11-28,2021-02-26,21.125639,81.363963,Delayed,0
+MPLADS-RD-00051,Assam,Kamrup Metropolitan,Guwahati,Rural Engineering Services,District Road,6.2,75.63,127.42,141,233,2025-04-16,2025-12-05,26.127958,91.746583,Delayed,1
+MPLADS-RD-00052,Assam,Silchar,Silchar,Zilla Parishad,Rural Link Road,0.83,11.68,12.83,114,162,2023-08-26,2024-02-04,24.919351,92.926615,Completed,1
+MPLADS-RD-00053,Assam,Silchar,Silchar,District Rural Development Agency (DRDA),State Highway Link,6.73,168.93,123.21,134,59,2021-08-20,,24.831905,92.775719,Ongoing,0
+MPLADS-RD-00054,Chhattisgarh,Raipur,Raipur,District Rural Development Agency (DRDA),Urban Internal Road,0.85,8.12,8.65,45,51,2020-12-04,2021-01-24,21.292677,81.668371,Completed,0
+MPLADS-RD-00055,Jharkhand,Ranchi,Ranchi,Municipal Corporation,Rural Link Road,3.13,17.39,8.85,70,30,2022-05-06,,23.50653,85.333974,Ongoing,0
+MPLADS-RD-00056,Punjab,Ludhiana,Ludhiana,Municipal Corporation,Urban Internal Road,0.59,15.81,16.19,45,30,2019-10-26,,30.898063,75.938029,Ongoing,1
+MPLADS-RD-00057,Haryana,Hisar,Hisar,CPWD Division,Village Road,3.46,21.04,21.4,111,112,2019-09-01,2019-12-22,29.262013,75.746453,Delayed,0
+MPLADS-RD-00058,Gujarat,Rajkot,Rajkot,Panchayati Raj Engineering Department,State Highway Link,8.46,168.13,182.29,159,223,2023-09-01,2024-04-11,22.389045,70.723925,Delayed,0
+MPLADS-RD-00059,Odisha,Ganjam,Berhampur,Zilla Parishad,State Highway Link,4.88,66.53,57.24,113,98,2021-05-13,2021-08-19,19.242817,84.920154,Completed,0
+MPLADS-RD-00060,Tamil Nadu,Salem,Salem,Panchayati Raj Engineering Department,Rural Link Road,2.51,15.14,15.05,67,83,2025-06-10,2025-09-01,11.6686,77.973519,Delayed,0
+MPLADS-RD-00061,Assam,Jorhat,Jorhat,Block Development Office,Village Road,2.02,22.54,24.06,67,58,2020-02-19,,26.828799,94.158961,Ongoing,1
+MPLADS-RD-00062,Odisha,Cuttack,Cuttack,District Rural Development Agency (DRDA),District Road,3.39,38.46,42.9,60,77,2020-02-29,2020-05-16,20.52273,85.950454,Delayed,0
+MPLADS-RD-00063,Kerala,Ernakulam,Ernakulam,Municipal Corporation,State Highway Link,13.68,277.76,315.7,163,201,2024-12-27,2025-07-16,10.050449,76.306129,Delayed,0
+MPLADS-RD-00064,Odisha,Khordha,Bhubaneswar,Block Development Office,Urban Internal Road,2.41,151.26,160.95,62,62,2020-04-24,2020-06-25,20.164175,85.801502,Completed,1
+MPLADS-RD-00065,Assam,Silchar,Silchar,CPWD Division,Village Road,3.06,13.6,13.33,84,137,2023-08-14,2023-12-29,24.835773,92.769491,Delayed,0
+MPLADS-RD-00066,Assam,Kamrup Metropolitan,Guwahati,State PWD Division,Urban Internal Road,0.6,6.89,6.92,48,61,2021-12-31,2022-03-02,26.0909,91.827022,Delayed,0
+MPLADS-RD-00067,Karnataka,Mysuru,Mysore,CPWD Division,Village Road,3.63,14.27,13.19,122,125,2019-08-27,2019-12-30,12.321423,76.624342,Completed,0
+MPLADS-RD-00068,Uttar Pradesh,Varanasi,Varanasi,Municipal Corporation,Urban Internal Road,0.79,7.44,5.0,48,43,2023-04-09,,25.291981,83.114664,Ongoing,0
+MPLADS-RD-00069,Odisha,Sambalpur,Sambalpur,CPWD Division,Rural Link Road,3.95,20.9,24.33,83,107,2020-09-22,2021-01-07,21.432331,83.983407,Delayed,0
+MPLADS-RD-00070,Kerala,Ernakulam,Ernakulam,Municipal Corporation,District Road,2.46,33.67,65.73,80,75,2024-12-02,2025-02-15,10.004804,76.30626,Completed,1
+MPLADS-RD-00071,Bihar,Patna,Patna Sahib,Municipal Corporation,State Highway Link,2.03,45.42,30.83,59,55,2022-07-08,,25.74009,85.040347,Ongoing,0
+MPLADS-RD-00072,Gujarat,Vadodara,Vadodara,CPWD Division,Village Road,1.49,6.23,5.97,50,52,2024-11-07,2024-12-29,22.122392,73.185548,Completed,0
+MPLADS-RD-00073,Maharashtra,Aurangabad,Aurangabad,Block Development Office,State Highway Link,3.75,64.34,33.84,93,53,2021-08-27,,19.880397,75.319926,Ongoing,0
+MPLADS-RD-00074,Uttar Pradesh,Gorakhpur,Gorakhpur,District Rural Development Agency (DRDA),District Road,7.17,88.18,82.74,157,161,2021-03-19,2021-08-27,26.90009,83.434688,Completed,0
+MPLADS-RD-00075,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,CPWD Division,Rural Link Road,0.99,5.37,5.15,48,77,2025-04-07,2025-06-23,22.870242,86.171401,Delayed,0
+MPLADS-RD-00076,Uttar Pradesh,Gorakhpur,Gorakhpur,Zilla Parishad,District Road,9.76,67.32,62.47,192,198,2025-04-28,2025-11-12,26.863574,83.330398,Completed,0
+MPLADS-RD-00077,Rajasthan,Udaipur,Udaipur,District Rural Development Agency (DRDA),District Road,3.5,25.24,9.96,82,42,2022-12-09,,24.558013,73.705973,Ongoing,0
+MPLADS-RD-00078,Odisha,Khordha,Bhubaneswar,State PWD Division,Rural Link Road,5.2,35.78,38.55,103,390,2022-07-27,2023-08-21,20.163231,85.796144,Delayed,1
+MPLADS-RD-00079,Kerala,Thiruvananthapuram,Thiruvananthapuram,State PWD Division,Urban Internal Road,1.67,22.31,24.47,45,51,2019-08-10,2019-09-30,8.608312,76.930943,Completed,0
+MPLADS-RD-00080,Chhattisgarh,Bilaspur,Bilaspur,Block Development Office,State Highway Link,11.77,194.9,182.66,151,167,2025-04-16,2025-09-30,22.073822,82.17319,Completed,0
+MPLADS-RD-00081,Haryana,Karnal,Karnal,CPWD Division,Rural Link Road,4.7,37.88,38.96,63,64,2023-12-11,2024-02-13,29.688678,76.983396,Completed,0
+MPLADS-RD-00082,Karnataka,Bengaluru Urban,Bangalore North,Panchayati Raj Engineering Department,Village Road,2.21,5.33,4.6,78,70,2022-07-23,2022-10-01,12.888794,77.593633,Completed,0
+MPLADS-RD-00083,Odisha,Sambalpur,Sambalpur,Rural Engineering Services,District Road,2.8,31.18,16.55,76,57,2023-03-27,,21.453386,83.991312,Ongoing,0
+MPLADS-RD-00084,Rajasthan,Udaipur,Udaipur,CPWD Division,State Highway Link,11.68,188.23,178.74,143,138,2024-03-21,2024-08-06,24.614636,73.745519,Completed,0
+MPLADS-RD-00085,Chhattisgarh,Raipur,Raipur,Panchayati Raj Engineering Department,State Highway Link,5.14,115.53,82.45,53,50,2020-12-31,,21.315961,81.50001,Ongoing,0
+MPLADS-RD-00086,Chhattisgarh,Bilaspur,Bilaspur,Panchayati Raj Engineering Department,Urban Internal Road,2.97,49.08,56.32,58,81,2023-06-30,2023-09-19,21.978546,82.045531,Delayed,0
+MPLADS-RD-00087,Gujarat,Vadodara,Vadodara,Panchayati Raj Engineering Department,District Road,7.22,81.53,36.98,173,77,2024-09-24,,22.223579,73.135782,Ongoing,0
+MPLADS-RD-00088,Punjab,Amritsar,Amritsar,District Rural Development Agency (DRDA),Village Road,2.17,10.57,11.12,76,66,2020-07-11,2020-09-15,31.485321,74.90848,Completed,0
+MPLADS-RD-00089,Chhattisgarh,Durg,Durg,District Rural Development Agency (DRDA),Rural Link Road,5.65,26.65,27.67,129,154,2019-08-15,2020-01-16,21.194085,81.391153,Completed,0
+MPLADS-RD-00090,Chhattisgarh,Durg,Durg,Block Development Office,District Road,9.9,110.7,105.97,111,132,2024-12-31,2025-05-12,21.161944,81.311767,Completed,0
+MPLADS-RD-00091,Uttarakhand,Haridwar,Haridwar,Panchayati Raj Engineering Department,Urban Internal Road,2.56,33.61,32.9,72,81,2023-06-14,2023-09-03,29.989856,78.023031,Completed,0
+MPLADS-RD-00092,Madhya Pradesh,Jabalpur,Jabalpur,Zilla Parishad,Village Road,1.58,6.69,6.14,57,52,2019-09-11,2019-11-02,23.102536,79.866557,Completed,0
+MPLADS-RD-00093,Maharashtra,Aurangabad,Aurangabad,CPWD Division,State Highway Link,4.81,106.46,107.99,79,87,2025-03-16,2025-06-11,19.806126,75.335535,Completed,0
+MPLADS-RD-00094,Madhya Pradesh,Jabalpur,Jabalpur,State PWD Division,District Road,3.41,41.39,41.98,80,83,2024-10-22,2025-01-13,23.088314,80.1471,Completed,0
+MPLADS-RD-00095,Bihar,Gaya,Gaya,Zilla Parishad,State Highway Link,9.05,103.1,110.45,76,81,2023-02-26,2023-05-18,24.820784,85.032186,Completed,0
+MPLADS-RD-00096,Tamil Nadu,Chennai,Chennai Central,Block Development Office,Urban Internal Road,1.15,12.08,10.6,58,70,2021-09-08,2021-11-17,13.054441,80.237008,Delayed,0
+MPLADS-RD-00097,Odisha,Ganjam,Berhampur,Panchayati Raj Engineering Department,Village Road,2.13,9.56,9.9,74,78,2020-09-20,2020-12-07,19.262715,84.886525,Delayed,0
+MPLADS-RD-00098,Odisha,Cuttack,Cuttack,CPWD Division,Urban Internal Road,1.17,12.08,12.5,45,69,2019-11-24,2020-02-01,20.480444,85.931077,Delayed,0
+MPLADS-RD-00099,Madhya Pradesh,Gwalior,Gwalior,State PWD Division,Urban Internal Road,0.42,19.93,21.04,45,37,2020-12-01,,26.308429,78.185052,Ongoing,1
+MPLADS-RD-00100,Chhattisgarh,Raipur,Raipur,District Rural Development Agency (DRDA),Village Road,1.18,3.44,3.3,63,87,2020-01-10,2020-04-06,21.322519,81.743485,Delayed,0
+MPLADS-RD-00101,Telangana,Karimnagar,Karimnagar,District Rural Development Agency (DRDA),District Road,2.41,24.41,24.51,58,77,2024-08-06,2024-10-22,18.48748,78.99848,Delayed,0
+MPLADS-RD-00102,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,District Rural Development Agency (DRDA),Village Road,1.71,8.12,7.6,62,73,2020-05-30,2020-08-11,10.761727,78.731125,Completed,0
+MPLADS-RD-00103,Telangana,Warangal,Warangal,State PWD Division,Village Road,1.05,2.41,2.58,54,66,2023-05-26,2023-07-31,17.915147,79.712291,Delayed,0
+MPLADS-RD-00104,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,State PWD Division,Village Road,3.33,19.5,18.01,79,87,2022-11-03,2023-01-29,22.846561,86.083348,Delayed,0
+MPLADS-RD-00105,Assam,Silchar,Silchar,Rural Engineering Services,Village Road,1.42,14.76,14.56,73,74,2021-06-01,2021-08-14,24.803121,92.701975,Completed,1
+MPLADS-RD-00106,Uttarakhand,Dehradun,Tehri Garhwal,CPWD Division,Rural Link Road,1.6,11.11,11.16,63,61,2021-11-04,2022-01-04,30.358289,78.01363,Completed,0
+MPLADS-RD-00107,Gujarat,Surat,Surat,Zilla Parishad,Rural Link Road,5.67,22.49,13.88,154,74,2023-11-30,,21.204501,72.95396,Ongoing,0
+MPLADS-RD-00108,Assam,Kamrup Metropolitan,Guwahati,Zilla Parishad,Rural Link Road,3.63,20.4,19.38,92,96,2022-05-20,2022-08-24,25.893007,91.652687,Completed,0
+MPLADS-RD-00109,Maharashtra,Nashik,Nashik,Panchayati Raj Engineering Department,State Highway Link,6.52,128.97,129.28,93,111,2021-11-26,2022-03-17,20.181467,73.797059,Delayed,0
+MPLADS-RD-00110,Gujarat,Bhavnagar,Bhavnagar,Rural Engineering Services,State Highway Link,5.89,97.6,82.96,127,122,2019-09-16,2020-01-16,21.719628,72.240654,Completed,0
+MPLADS-RD-00111,West Bengal,Darjeeling,Darjeeling,CPWD Division,State Highway Link,12.82,236.84,237.8,199,215,2020-02-14,2020-09-16,27.10046,88.309752,Completed,0
+MPLADS-RD-00112,Madhya Pradesh,Gwalior,Gwalior,Panchayati Raj Engineering Department,District Road,5.51,48.43,46.83,106,110,2024-07-31,2024-11-18,26.163982,78.182195,Completed,0
+MPLADS-RD-00113,Karnataka,Mysuru,Mysore,Panchayati Raj Engineering Department,Urban Internal Road,2.96,46.13,47.89,77,87,2019-12-14,2020-03-10,12.271859,76.558195,Completed,0
+MPLADS-RD-00114,Uttar Pradesh,Agra,Agra,Panchayati Raj Engineering Department,District Road,5.87,72.1,75.88,98,158,2021-01-29,2021-07-06,27.071972,78.056959,Delayed,0
+MPLADS-RD-00115,Gujarat,Vadodara,Vadodara,State PWD Division,State Highway Link,6.54,160.72,161.71,93,87,2022-10-27,2023-01-22,22.330767,73.255011,Completed,0
+MPLADS-RD-00116,Gujarat,Surat,Surat,CPWD Division,State Highway Link,12.78,247.56,261.31,165,141,2023-09-04,2024-01-23,21.20058,72.890318,Completed,0
+MPLADS-RD-00117,Gujarat,Surat,Surat,Panchayati Raj Engineering Department,District Road,7.1,58.96,62.5,145,154,2019-11-03,2020-04-05,21.291543,72.767347,Completed,0
+MPLADS-RD-00118,Rajasthan,Udaipur,Udaipur,CPWD Division,Urban Internal Road,2.26,21.85,19.72,45,51,2025-01-01,2025-02-21,24.604246,73.782255,Completed,0
+MPLADS-RD-00119,Kerala,Thiruvananthapuram,Thiruvananthapuram,District Rural Development Agency (DRDA),State Highway Link,12.87,307.77,299.6,165,197,2023-04-26,2023-11-09,8.551672,76.990066,Completed,0
+MPLADS-RD-00120,Jharkhand,Dhanbad,Dhanbad,Rural Engineering Services,Urban Internal Road,1.45,19.42,21.99,45,45,2021-08-02,2021-09-16,23.800716,86.439003,Completed,0
+MPLADS-RD-00121,Bihar,Darbhanga,Darbhanga,District Rural Development Agency (DRDA),State Highway Link,3.96,62.03,66.3,79,64,2021-01-26,2021-03-31,26.174858,86.016977,Completed,0
+MPLADS-RD-00122,Gujarat,Bhavnagar,Bhavnagar,State PWD Division,Village Road,3.97,21.01,20.27,105,98,2019-07-02,2019-10-08,21.734924,72.10419,Completed,0
+MPLADS-RD-00123,Odisha,Cuttack,Cuttack,Rural Engineering Services,District Road,7.09,86.72,54.64,120,83,2022-08-10,,20.410963,85.930096,Ongoing,0
+MPLADS-RD-00124,Gujarat,Bhavnagar,Bhavnagar,Rural Engineering Services,Rural Link Road,5.46,37.93,39.24,116,110,2023-01-10,2023-04-30,21.952966,72.149585,Completed,0
+MPLADS-RD-00125,Maharashtra,Pune,Pune,CPWD Division,District Road,3.16,26.94,22.9,70,79,2021-02-12,2021-05-02,18.433783,73.888268,Completed,0
+MPLADS-RD-00126,Karnataka,Mysuru,Mysore,Panchayati Raj Engineering Department,District Road,6.13,63.42,60.47,107,168,2020-05-04,2020-10-19,12.278942,76.613076,Delayed,0
+MPLADS-RD-00127,Gujarat,Surat,Surat,Block Development Office,State Highway Link,2.26,29.42,13.68,65,52,2020-10-15,,21.140213,72.8916,Ongoing,0
+MPLADS-RD-00128,Maharashtra,Pune,Pune,Block Development Office,Village Road,2.61,7.21,7.3,80,88,2019-07-06,2019-10-02,18.498026,73.815735,Completed,0
+MPLADS-RD-00129,Maharashtra,Thane,Thane,CPWD Division,Village Road,2.44,8.1,5.87,82,70,2023-04-28,,19.133617,72.968099,Ongoing,0
+MPLADS-RD-00130,Uttar Pradesh,Agra,Agra,CPWD Division,Village Road,2.62,12.09,11.94,102,114,2024-10-29,2025-02-20,27.260199,78.03957,Completed,0
+MPLADS-RD-00131,Madhya Pradesh,Gwalior,Gwalior,Rural Engineering Services,Village Road,1.58,10.99,9.34,81,81,2024-09-02,2024-11-22,26.189611,78.228158,Completed,0
+MPLADS-RD-00132,Assam,Kamrup Metropolitan,Guwahati,Block Development Office,Urban Internal Road,2.22,26.04,25.46,45,49,2023-06-16,2023-08-04,26.155629,91.728529,Completed,0
+MPLADS-RD-00133,Maharashtra,Nagpur,Nagpur,CPWD Division,Village Road,3.32,12.0,12.08,106,98,2020-05-07,2020-08-13,21.228505,78.951872,Completed,0
+MPLADS-RD-00134,Tamil Nadu,Salem,Salem,Panchayati Raj Engineering Department,State Highway Link,14.1,196.29,199.57,212,226,2019-07-18,2020-02-29,11.781194,78.168607,Completed,0
+MPLADS-RD-00135,Haryana,Karnal,Karnal,Zilla Parishad,Rural Link Road,0.88,14.51,13.92,53,69,2020-08-23,2020-10-31,29.713035,76.959887,Delayed,1
+MPLADS-RD-00136,Chhattisgarh,Durg,Durg,Block Development Office,Village Road,2.82,5.76,5.47,88,83,2024-09-16,2024-12-08,21.090375,81.325798,Completed,0
+MPLADS-RD-00137,Madhya Pradesh,Indore,Indore,Municipal Corporation,Urban Internal Road,2.38,25.93,27.36,70,78,2020-05-02,2020-07-19,22.799239,75.935391,Completed,0
+MPLADS-RD-00138,Rajasthan,Kota,Kota,Zilla Parishad,Village Road,1.17,4.88,4.84,78,85,2025-05-18,2025-08-11,25.195457,75.737376,Completed,0
+MPLADS-RD-00139,Bihar,Gaya,Gaya,CPWD Division,Village Road,1.86,7.0,8.56,80,212,2022-05-04,2022-12-02,24.838445,85.247551,Delayed,1
+MPLADS-RD-00140,Jharkhand,Dhanbad,Dhanbad,Panchayati Raj Engineering Department,State Highway Link,6.42,98.49,109.36,86,112,2024-07-07,2024-10-27,23.81979,86.558909,Delayed,0
+MPLADS-RD-00141,Madhya Pradesh,Bhopal,Bhopal,District Rural Development Agency (DRDA),Rural Link Road,3.08,19.89,18.96,92,86,2023-09-11,2023-12-06,23.223355,77.420716,Completed,0
+MPLADS-RD-00142,Jharkhand,Dhanbad,Dhanbad,Municipal Corporation,District Road,3.58,44.03,22.97,95,70,2023-10-31,,23.735538,86.417212,Ongoing,0
+MPLADS-RD-00143,Jharkhand,Dhanbad,Dhanbad,District Rural Development Agency (DRDA),State Highway Link,11.57,193.36,95.64,124,90,2022-01-31,,23.740169,86.389872,Ongoing,0
+MPLADS-RD-00144,Haryana,Karnal,Karnal,CPWD Division,Village Road,1.23,5.45,2.63,59,44,2024-06-13,,29.667486,76.987504,Ongoing,0
+MPLADS-RD-00145,West Bengal,Darjeeling,Darjeeling,Panchayati Raj Engineering Department,Village Road,3.32,12.33,12.57,76,74,2021-01-21,2021-04-05,27.099297,88.220168,Completed,0
+MPLADS-RD-00146,Assam,Kamrup Metropolitan,Guwahati,Rural Engineering Services,Urban Internal Road,1.61,22.36,50.92,45,60,2022-02-14,2022-04-15,26.13972,91.806346,Delayed,1
+MPLADS-RD-00147,Chhattisgarh,Bilaspur,Bilaspur,Block Development Office,Urban Internal Road,1.71,26.95,26.42,50,50,2025-06-11,2025-07-31,22.121796,82.08699,Completed,0
+MPLADS-RD-00148,Karnataka,Hubballi-Dharwad,Dharwad,Panchayati Raj Engineering Department,Urban Internal Road,2.34,36.39,35.38,45,50,2021-06-07,2021-07-27,15.211027,75.162163,Completed,0
+MPLADS-RD-00149,Punjab,Ludhiana,Ludhiana,Zilla Parishad,State Highway Link,9.73,507.79,489.31,99,109,2022-07-30,2022-11-16,30.926393,75.866641,Completed,1
+MPLADS-RD-00150,Haryana,Faridabad,Faridabad,CPWD Division,District Road,1.76,13.86,12.91,71,67,2024-10-17,2024-12-23,28.515956,77.401994,Completed,0
+MPLADS-RD-00151,Haryana,Gurugram,Gurgaon,District Rural Development Agency (DRDA),Urban Internal Road,1.94,22.91,23.45,45,42,2024-08-31,2024-10-12,28.394629,77.073889,Completed,0
+MPLADS-RD-00152,Odisha,Ganjam,Berhampur,Rural Engineering Services,State Highway Link,7.38,86.78,85.85,110,167,2019-07-01,2019-12-15,19.365444,85.018076,Delayed,0
+MPLADS-RD-00153,West Bengal,Murshidabad,Baharampur,Block Development Office,Urban Internal Road,2.55,36.29,33.48,66,68,2020-04-12,2020-06-19,24.336869,88.283105,Completed,0
+MPLADS-RD-00154,Assam,Dibrugarh,Dibrugarh,District Rural Development Agency (DRDA),Village Road,1.86,9.59,12.25,72,280,2025-04-20,2026-01-25,27.455934,94.900658,Delayed,1
+MPLADS-RD-00155,Chhattisgarh,Bilaspur,Bilaspur,Municipal Corporation,District Road,7.87,57.18,62.48,150,215,2024-03-06,2024-10-07,22.032978,82.14863,Delayed,0
+MPLADS-RD-00156,Kerala,Ernakulam,Ernakulam,State PWD Division,Village Road,2.04,13.65,14.1,49,69,2020-01-28,2020-04-06,9.970878,76.251241,Delayed,0
+MPLADS-RD-00157,Gujarat,Rajkot,Rajkot,Rural Engineering Services,State Highway Link,9.93,170.47,171.51,167,163,2024-08-07,2025-01-17,22.342713,70.759967,Completed,0
+MPLADS-RD-00158,Rajasthan,Jaipur,Jaipur,Panchayati Raj Engineering Department,State Highway Link,13.63,146.75,163.6,159,204,2020-04-12,2020-11-02,26.834289,75.769841,Delayed,0
+MPLADS-RD-00159,Jharkhand,Ranchi,Ranchi,Municipal Corporation,State Highway Link,4.27,80.53,75.1,81,89,2019-08-12,2019-11-09,23.369117,85.289293,Completed,0
+MPLADS-RD-00160,Punjab,Ludhiana,Ludhiana,State PWD Division,Urban Internal Road,1.02,69.98,71.37,72,103,2025-04-16,2025-07-28,30.773206,75.776167,Delayed,1
+MPLADS-RD-00161,Karnataka,Hubballi-Dharwad,Dharwad,Municipal Corporation,Rural Link Road,2.6,11.58,10.83,79,87,2021-07-22,2021-10-17,15.459767,75.099032,Completed,0
+MPLADS-RD-00162,Rajasthan,Kota,Kota,Zilla Parishad,State Highway Link,12.08,214.98,202.76,177,239,2021-02-25,2021-10-22,25.239904,75.86783,Completed,0
+MPLADS-RD-00163,Uttar Pradesh,Lucknow,Lucknow,CPWD Division,Village Road,3.54,14.75,14.88,106,117,2022-07-11,2022-11-05,26.847602,80.938354,Completed,0
+MPLADS-RD-00164,Jharkhand,Dhanbad,Dhanbad,Zilla Parishad,Urban Internal Road,1.9,18.87,17.71,58,58,2021-03-21,2021-05-18,23.700999,86.561819,Completed,0
+MPLADS-RD-00165,Karnataka,Mysuru,Mysore,Panchayati Raj Engineering Department,Urban Internal Road,2.44,27.98,27.14,74,89,2023-06-19,2023-09-16,12.326608,76.673015,Delayed,0
+MPLADS-RD-00166,Haryana,Gurugram,Gurgaon,State PWD Division,Village Road,3.6,17.25,20.6,117,135,2021-03-21,2021-08-03,28.486368,76.967699,Completed,0
+MPLADS-RD-00167,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Municipal Corporation,State Highway Link,13.98,283.85,255.61,246,258,2022-12-05,2023-08-20,29.456636,79.461835,Completed,0
+MPLADS-RD-00168,Tamil Nadu,Coimbatore,Coimbatore,Panchayati Raj Engineering Department,Urban Internal Road,0.3,3.39,3.46,46,57,2020-06-28,2020-08-24,10.893898,76.837623,Completed,0
+MPLADS-RD-00169,Punjab,Jalandhar,Jalandhar,Municipal Corporation,Rural Link Road,2.29,13.56,12.27,86,82,2024-01-28,2024-04-19,31.315731,75.604741,Completed,0
+MPLADS-RD-00170,Jharkhand,Dhanbad,Dhanbad,Panchayati Raj Engineering Department,Village Road,3.02,11.6,12.27,94,95,2022-11-17,2023-02-20,23.948105,86.433246,Completed,0
+MPLADS-RD-00171,Gujarat,Vadodara,Vadodara,Block Development Office,State Highway Link,7.36,442.32,451.15,136,145,2021-05-15,2021-10-07,22.444926,73.310954,Completed,1
+MPLADS-RD-00172,Maharashtra,Pune,Pune,Municipal Corporation,Urban Internal Road,2.21,22.22,20.35,58,67,2019-10-29,2020-01-04,18.541163,73.87736,Completed,0
+MPLADS-RD-00173,Assam,Jorhat,Jorhat,Municipal Corporation,Urban Internal Road,0.97,16.32,10.2,50,30,2022-10-31,,26.769887,94.096015,Ongoing,0
+MPLADS-RD-00174,Jharkhand,Ranchi,Ranchi,Block Development Office,District Road,9.81,124.34,122.16,151,170,2019-10-15,2020-04-02,23.320483,85.347009,Completed,0
+MPLADS-RD-00175,Jharkhand,Ranchi,Ranchi,Zilla Parishad,District Road,8.53,98.1,100.3,156,154,2023-05-08,2023-10-09,23.308327,85.305635,Completed,0
+MPLADS-RD-00176,Madhya Pradesh,Jabalpur,Jabalpur,CPWD Division,District Road,5.53,56.93,57.55,103,112,2022-01-24,2022-05-16,23.211558,80.055665,Completed,0
+MPLADS-RD-00177,Kerala,Thiruvananthapuram,Thiruvananthapuram,Municipal Corporation,District Road,5.02,48.05,49.83,87,81,2023-01-19,2023-04-10,8.502787,76.890072,Completed,0
+MPLADS-RD-00178,Karnataka,Kalaburagi,Gulbarga,State PWD Division,Urban Internal Road,0.92,11.57,6.97,45,39,2025-01-16,,17.32929,76.821225,Ongoing,0
+MPLADS-RD-00179,Uttar Pradesh,Agra,Agra,Rural Engineering Services,District Road,5.19,55.47,56.32,129,152,2022-04-30,2022-09-29,27.192308,78.058452,Delayed,0
+MPLADS-RD-00180,Odisha,Cuttack,Cuttack,Municipal Corporation,District Road,7.98,72.1,120.14,163,148,2020-09-06,2021-02-01,20.472183,86.005104,Completed,1
+MPLADS-RD-00181,Assam,Jorhat,Jorhat,Rural Engineering Services,Village Road,1.51,9.14,8.85,48,70,2021-02-08,2021-04-19,26.769736,94.332589,Delayed,0
+MPLADS-RD-00182,Kerala,Kozhikode,Kozhikode,Municipal Corporation,Rural Link Road,3.01,20.96,22.6,75,117,2023-07-04,2023-10-29,11.336693,75.879757,Delayed,0
+MPLADS-RD-00183,Assam,Kamrup Metropolitan,Guwahati,CPWD Division,District Road,5.86,80.06,82.13,125,157,2022-07-01,2022-12-05,26.145007,91.944014,Delayed,0
+MPLADS-RD-00184,West Bengal,Kolkata,Kolkata Dakshin,Panchayati Raj Engineering Department,Village Road,2.47,10.36,11.05,56,55,2021-10-26,2021-12-20,22.612371,88.406427,Completed,0
+MPLADS-RD-00185,Punjab,Patiala,Patiala,State PWD Division,Rural Link Road,0.84,3.87,4.09,45,50,2021-03-27,2021-05-16,30.267845,76.360292,Completed,0
+MPLADS-RD-00186,Gujarat,Ahmedabad,Ahmedabad East,Block Development Office,Urban Internal Road,2.0,14.15,5.09,45,47,2019-06-20,,23.04872,72.618134,Ongoing,0
+MPLADS-RD-00187,Rajasthan,Jodhpur,Jodhpur,Panchayati Raj Engineering Department,District Road,9.23,93.29,103.24,155,149,2025-05-31,2025-10-27,26.325368,73.000752,Completed,0
+MPLADS-RD-00188,West Bengal,Malda,Maldaha Uttar,District Rural Development Agency (DRDA),Village Road,2.44,6.68,6.88,76,89,2020-03-24,2020-06-21,25.104025,88.272892,Completed,0
+MPLADS-RD-00189,Telangana,Nizamabad,Nizamabad,Zilla Parishad,Village Road,2.15,10.43,4.42,92,70,2022-02-13,,18.680646,77.981089,Ongoing,0
+MPLADS-RD-00190,Kerala,Kozhikode,Kozhikode,District Rural Development Agency (DRDA),District Road,2.69,30.12,33.48,73,108,2021-10-11,2022-01-27,11.282235,75.653288,Delayed,0
+MPLADS-RD-00191,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,Panchayati Raj Engineering Department,Rural Link Road,3.57,22.06,21.38,75,81,2024-10-28,2025-01-17,22.857743,86.156085,Completed,0
+MPLADS-RD-00192,Maharashtra,Thane,Thane,District Rural Development Agency (DRDA),District Road,7.14,68.5,68.09,157,171,2023-11-21,2024-05-10,19.285436,72.974108,Completed,0
+MPLADS-RD-00193,Maharashtra,Kolhapur,Kolhapur,Zilla Parishad,Urban Internal Road,1.62,23.2,9.52,59,30,2022-05-14,,16.707451,74.204566,Ongoing,0
+MPLADS-RD-00194,Uttarakhand,Dehradun,Tehri Garhwal,District Rural Development Agency (DRDA),Urban Internal Road,1.15,16.73,17.2,52,55,2023-08-10,2023-10-04,30.202759,77.917462,Completed,0
+MPLADS-RD-00195,West Bengal,Kolkata,Kolkata Dakshin,Block Development Office,Village Road,0.79,7.82,7.11,45,30,2021-06-04,,22.592228,88.412785,Ongoing,1
+MPLADS-RD-00196,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,Block Development Office,State Highway Link,4.18,75.81,75.06,72,85,2022-02-02,2022-04-28,22.789866,86.181288,Completed,0
+MPLADS-RD-00197,Karnataka,Kalaburagi,Gulbarga,Zilla Parishad,Rural Link Road,5.37,38.03,37.88,90,95,2023-09-23,2023-12-27,17.362395,76.877714,Completed,0
+MPLADS-RD-00198,West Bengal,Murshidabad,Baharampur,Municipal Corporation,District Road,1.77,15.63,15.34,46,46,2023-03-01,2023-04-16,24.151039,88.131227,Completed,0
+MPLADS-RD-00199,Haryana,Karnal,Karnal,Zilla Parishad,District Road,3.62,37.11,39.54,84,107,2023-02-04,2023-05-22,29.694268,77.058337,Completed,0
+MPLADS-RD-00200,Uttarakhand,Haridwar,Haridwar,Rural Engineering Services,Rural Link Road,3.31,20.23,18.8,70,79,2021-07-23,2021-10-10,29.742007,78.213342,Completed,0
+MPLADS-RD-00201,West Bengal,Kolkata,Kolkata Dakshin,Rural Engineering Services,Rural Link Road,2.87,13.3,14.14,100,148,2020-03-29,2020-08-24,22.545602,88.430135,Delayed,0
+MPLADS-RD-00202,Jharkhand,Ranchi,Ranchi,Municipal Corporation,Urban Internal Road,0.81,7.35,6.95,45,66,2024-10-18,2024-12-23,23.366283,85.348407,Delayed,0
+MPLADS-RD-00203,West Bengal,Darjeeling,Darjeeling,Municipal Corporation,Village Road,2.79,6.39,7.16,73,81,2020-02-06,2020-04-27,27.011127,88.435991,Completed,0
+MPLADS-RD-00204,Gujarat,Vadodara,Vadodara,State PWD Division,State Highway Link,12.1,211.12,213.75,206,251,2019-08-24,2020-05-01,22.504945,73.194841,Delayed,0
+MPLADS-RD-00205,Madhya Pradesh,Indore,Indore,CPWD Division,District Road,3.76,34.94,35.21,102,149,2022-05-22,2022-10-18,22.718784,75.984918,Delayed,0
+MPLADS-RD-00206,Assam,Jorhat,Jorhat,Block Development Office,Village Road,3.48,12.0,11.89,99,172,2021-10-11,2022-04-01,26.753986,94.17876,Delayed,0
+MPLADS-RD-00207,Odisha,Cuttack,Cuttack,Zilla Parishad,Urban Internal Road,2.31,28.98,27.97,56,61,2020-07-04,2020-09-03,20.423028,85.894314,Delayed,0
+MPLADS-RD-00208,Uttarakhand,Haridwar,Haridwar,CPWD Division,District Road,8.72,270.39,267.11,160,216,2022-10-24,2023-05-28,29.87647,78.22153,Delayed,1
+MPLADS-RD-00209,Gujarat,Vadodara,Vadodara,Block Development Office,Village Road,0.9,9.28,9.68,45,48,2024-08-29,2024-10-16,22.322968,73.164978,Completed,1
+MPLADS-RD-00210,Uttar Pradesh,Lucknow,Lucknow,Panchayati Raj Engineering Department,Urban Internal Road,1.79,12.89,12.27,59,65,2025-05-17,2025-07-21,26.93303,80.946839,Completed,0
+MPLADS-RD-00211,Haryana,Gurugram,Gurgaon,Panchayati Raj Engineering Department,Rural Link Road,5.1,35.21,34.23,105,115,2021-07-27,2021-11-19,28.525557,77.088192,Completed,0
+MPLADS-RD-00212,Gujarat,Bhavnagar,Bhavnagar,CPWD Division,Rural Link Road,5.35,15.97,16.84,162,158,2020-06-13,2020-11-18,21.80801,72.113101,Completed,0
+MPLADS-RD-00213,Uttarakhand,Haridwar,Haridwar,Zilla Parishad,District Road,6.83,75.86,41.4,133,56,2019-04-07,,30.03547,78.136717,Ongoing,0
+MPLADS-RD-00214,Maharashtra,Nashik,Nashik,Panchayati Raj Engineering Department,District Road,5.04,56.64,55.51,100,149,2025-05-31,2025-10-27,20.046211,73.717473,Delayed,0
+MPLADS-RD-00215,Chhattisgarh,Raipur,Raipur,Municipal Corporation,District Road,6.91,59.98,62.58,164,166,2021-04-17,2021-09-30,21.321452,81.453385,Completed,0
+MPLADS-RD-00216,Telangana,Karimnagar,Karimnagar,Municipal Corporation,Rural Link Road,5.25,33.82,35.45,71,76,2024-03-18,2024-06-02,18.331042,79.15371,Completed,0
+MPLADS-RD-00217,Haryana,Hisar,Hisar,Panchayati Raj Engineering Department,Urban Internal Road,1.31,19.87,18.56,45,56,2020-10-17,2020-12-12,29.326083,75.679345,Completed,0
+MPLADS-RD-00218,Maharashtra,Kolhapur,Kolhapur,State PWD Division,Urban Internal Road,0.48,6.08,5.88,50,43,2021-04-26,2021-06-08,16.557293,74.206862,Completed,0
+MPLADS-RD-00219,Odisha,Sambalpur,Sambalpur,Zilla Parishad,State Highway Link,8.59,175.89,176.16,154,220,2024-06-30,2025-02-05,21.400212,83.907213,Delayed,0
+MPLADS-RD-00220,Karnataka,Hubballi-Dharwad,Dharwad,CPWD Division,Village Road,2.57,12.66,12.9,82,104,2024-09-18,2024-12-31,15.383274,75.079574,Delayed,0
+MPLADS-RD-00221,Uttar Pradesh,Varanasi,Varanasi,Rural Engineering Services,District Road,2.45,22.52,23.39,52,55,2021-02-18,2021-04-14,25.406637,82.954295,Completed,0
+MPLADS-RD-00222,Karnataka,Kalaburagi,Gulbarga,Rural Engineering Services,State Highway Link,9.43,171.34,185.69,208,239,2021-11-27,2022-07-24,17.325733,76.942086,Completed,0
+MPLADS-RD-00223,Kerala,Kozhikode,Kozhikode,Municipal Corporation,Rural Link Road,5.74,28.07,29.01,85,116,2021-11-30,2022-03-26,11.189172,75.921021,Delayed,0
+MPLADS-RD-00224,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,Panchayati Raj Engineering Department,Village Road,2.16,8.79,4.66,79,50,2022-07-29,,10.712481,78.743592,Ongoing,0
+MPLADS-RD-00225,West Bengal,Darjeeling,Darjeeling,Panchayati Raj Engineering Department,District Road,6.37,73.19,39.95,117,66,2023-08-15,,27.075231,88.25116,Ongoing,0
+MPLADS-RD-00226,Gujarat,Surat,Surat,District Rural Development Agency (DRDA),District Road,4.1,40.21,42.62,106,102,2023-01-04,2023-04-16,21.203757,72.931722,Completed,0
+MPLADS-RD-00227,Jharkhand,Ranchi,Ranchi,Rural Engineering Services,Urban Internal Road,1.43,18.84,19.73,47,44,2025-05-08,2025-06-21,23.469807,85.4352,Completed,0
+MPLADS-RD-00228,Bihar,Bhagalpur,Bhagalpur,State PWD Division,Village Road,2.15,8.23,7.38,72,73,2021-07-21,2021-10-02,25.324652,86.83048,Completed,0
+MPLADS-RD-00229,Haryana,Hisar,Hisar,Block Development Office,Village Road,1.29,5.54,5.2,59,70,2022-06-24,2022-09-02,29.064609,75.569875,Delayed,0
+MPLADS-RD-00230,Karnataka,Mysuru,Mysore,Zilla Parishad,Rural Link Road,5.37,28.57,21.58,140,79,2022-05-03,,12.227401,76.651527,Ongoing,0
+MPLADS-RD-00231,Maharashtra,Nagpur,Nagpur,Rural Engineering Services,Urban Internal Road,2.81,26.71,28.42,46,51,2019-11-04,2019-12-25,21.087708,79.117776,Completed,0
+MPLADS-RD-00232,Madhya Pradesh,Gwalior,Gwalior,Rural Engineering Services,Urban Internal Road,1.15,15.29,14.72,49,48,2022-09-25,2022-11-12,26.230421,78.204838,Completed,0
+MPLADS-RD-00233,Chhattisgarh,Durg,Durg,Panchayati Raj Engineering Department,Village Road,1.95,7.52,3.14,75,52,2024-01-28,,21.180453,81.300575,Ongoing,0
+MPLADS-RD-00234,Uttarakhand,Haridwar,Haridwar,Municipal Corporation,Village Road,0.86,4.6,2.16,51,44,2021-12-11,,29.991343,78.213655,Ongoing,0
+MPLADS-RD-00235,Karnataka,Mysuru,Mysore,Zilla Parishad,Village Road,2.35,11.0,12.76,57,174,2021-01-07,2021-06-30,12.296788,76.550249,Delayed,1
+MPLADS-RD-00236,Chhattisgarh,Durg,Durg,Rural Engineering Services,State Highway Link,10.57,178.0,171.09,198,218,2023-11-06,2024-06-11,21.190991,81.2984,Completed,0
+MPLADS-RD-00237,Tamil Nadu,Coimbatore,Coimbatore,Zilla Parishad,Rural Link Road,4.19,13.67,13.7,125,170,2021-04-09,2021-09-26,11.025175,77.091527,Delayed,0
+MPLADS-RD-00238,Gujarat,Surat,Surat,Zilla Parishad,Urban Internal Road,0.68,7.11,7.42,45,40,2025-04-10,2025-05-20,21.158535,72.799737,Completed,0
+MPLADS-RD-00239,Uttarakhand,Dehradun,Tehri Garhwal,CPWD Division,State Highway Link,2.66,69.19,68.75,61,79,2023-09-24,2023-12-12,30.205245,78.147296,Delayed,0
+MPLADS-RD-00240,Chhattisgarh,Bilaspur,Bilaspur,Block Development Office,District Road,3.63,47.71,50.28,81,85,2024-07-21,2024-10-14,22.23928,82.095099,Completed,0
+MPLADS-RD-00241,Telangana,Nizamabad,Nizamabad,Municipal Corporation,Rural Link Road,3.86,25.5,25.11,69,73,2020-06-01,2020-08-13,18.605049,78.116763,Completed,0
+MPLADS-RD-00242,Madhya Pradesh,Indore,Indore,Zilla Parishad,District Road,4.78,28.91,28.6,97,103,2020-10-10,2021-01-21,22.645114,75.777768,Completed,0
+MPLADS-RD-00243,Jharkhand,Dhanbad,Dhanbad,District Rural Development Agency (DRDA),District Road,7.49,31.73,29.66,130,141,2021-09-10,2022-01-29,23.818999,86.548289,Completed,0
+MPLADS-RD-00244,Telangana,Nizamabad,Nizamabad,CPWD Division,Village Road,2.28,9.3,9.3,69,75,2023-08-08,2023-10-22,18.663721,78.122318,Completed,0
+MPLADS-RD-00245,Chhattisgarh,Raipur,Raipur,District Rural Development Agency (DRDA),District Road,2.64,22.31,23.5,53,53,2022-07-12,2022-09-03,21.145597,81.590704,Completed,0
+MPLADS-RD-00246,Kerala,Kozhikode,Kozhikode,Rural Engineering Services,Village Road,0.51,2.16,2.13,45,52,2022-10-29,2022-12-20,11.290559,75.785231,Delayed,0
+MPLADS-RD-00247,Karnataka,Belagavi,Belgaum,CPWD Division,District Road,2.98,35.9,39.0,60,84,2021-05-26,2021-08-18,15.779691,74.418205,Delayed,0
+MPLADS-RD-00248,Gujarat,Surat,Surat,Municipal Corporation,Urban Internal Road,2.34,34.53,34.93,45,46,2022-02-22,2022-04-09,21.296421,72.745692,Completed,0
+MPLADS-RD-00249,Rajasthan,Udaipur,Udaipur,District Rural Development Agency (DRDA),District Road,3.51,31.01,12.8,95,51,2019-11-15,,24.593411,73.592847,Ongoing,0
+MPLADS-RD-00250,Karnataka,Belagavi,Belgaum,District Rural Development Agency (DRDA),State Highway Link,4.1,62.02,34.26,97,39,2022-09-08,,15.744066,74.318746,Ongoing,0
+MPLADS-RD-00251,Odisha,Cuttack,Cuttack,District Rural Development Agency (DRDA),Rural Link Road,1.51,8.82,9.72,59,157,2019-08-31,2020-02-04,20.460098,85.954505,Delayed,1
+MPLADS-RD-00252,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Rural Engineering Services,Rural Link Road,3.66,34.79,34.55,74,70,2023-01-03,2023-03-14,29.271314,79.375387,Completed,0
+MPLADS-RD-00253,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Block Development Office,Rural Link Road,4.15,22.83,28.81,120,421,2024-07-09,2025-09-03,29.388465,79.530464,Delayed,1
+MPLADS-RD-00254,Madhya Pradesh,Jabalpur,Jabalpur,Block Development Office,Urban Internal Road,1.25,9.5,10.6,53,54,2020-02-21,2020-04-15,23.165537,79.986014,Completed,0
+MPLADS-RD-00255,Haryana,Karnal,Karnal,State PWD Division,State Highway Link,7.08,175.8,161.1,135,193,2021-04-18,2021-10-28,29.736567,76.895261,Delayed,0
+MPLADS-RD-00256,Chhattisgarh,Raipur,Raipur,Block Development Office,Village Road,1.56,4.64,4.43,59,62,2022-11-20,2023-01-21,21.315155,81.573517,Completed,0
+MPLADS-RD-00257,Maharashtra,Kolhapur,Kolhapur,Municipal Corporation,District Road,5.25,38.05,34.93,58,71,2020-08-15,2020-10-25,16.671912,74.222332,Completed,0
+MPLADS-RD-00258,Uttar Pradesh,Agra,Agra,District Rural Development Agency (DRDA),State Highway Link,3.89,74.66,68.08,67,77,2021-05-24,2021-08-09,27.082959,77.9601,Delayed,0
+MPLADS-RD-00259,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Panchayati Raj Engineering Department,District Road,6.88,61.43,65.75,109,123,2022-05-24,2022-09-24,29.427019,79.520439,Completed,0
+MPLADS-RD-00260,Assam,Kamrup Metropolitan,Guwahati,Panchayati Raj Engineering Department,Rural Link Road,1.35,7.49,7.14,53,68,2022-11-25,2023-02-01,26.130665,91.749332,Delayed,0
+MPLADS-RD-00261,Telangana,Karimnagar,Karimnagar,Zilla Parishad,Rural Link Road,0.83,90.34,91.73,255,443,2024-07-18,2025-10-04,18.39836,79.151186,Completed,1
+MPLADS-RD-00262,Tamil Nadu,Madurai,Madurai,Block Development Office,District Road,7.26,193.84,206.07,115,129,2020-11-21,2021-03-30,10.028307,78.197392,Completed,1
+MPLADS-RD-00263,Odisha,Sambalpur,Sambalpur,Zilla Parishad,Village Road,0.97,3.17,3.28,70,74,2023-03-13,2023-05-26,21.489958,83.95541,Completed,0
+MPLADS-RD-00264,Assam,Dibrugarh,Dibrugarh,Block Development Office,Urban Internal Road,1.88,17.32,5.9,45,34,2023-11-15,,27.651343,94.970112,Ongoing,0
+MPLADS-RD-00265,Tamil Nadu,Coimbatore,Coimbatore,Zilla Parishad,State Highway Link,4.73,88.83,88.59,89,88,2022-05-21,2022-08-17,11.127302,77.089928,Completed,0
+MPLADS-RD-00266,West Bengal,Malda,Maldaha Uttar,Panchayati Raj Engineering Department,District Road,2.68,30.15,30.96,72,84,2022-10-18,2023-01-10,25.011868,88.229495,Completed,0
+MPLADS-RD-00267,Uttarakhand,Haridwar,Haridwar,Municipal Corporation,Village Road,2.57,7.48,6.85,96,105,2024-03-19,2024-07-02,29.913436,78.170198,Completed,0
+MPLADS-RD-00268,Uttar Pradesh,Prayagraj,Phulpur,Municipal Corporation,State Highway Link,7.13,96.04,83.13,102,103,2023-12-03,2024-03-15,25.407271,81.866068,Completed,0
+MPLADS-RD-00269,Bihar,Bhagalpur,Bhagalpur,CPWD Division,Rural Link Road,3.86,39.73,41.09,68,74,2024-12-14,2025-02-26,25.171317,86.866709,Delayed,0
+MPLADS-RD-00270,Kerala,Thiruvananthapuram,Thiruvananthapuram,Rural Engineering Services,State Highway Link,2.32,50.2,51.35,50,52,2024-05-01,2024-06-22,8.504349,76.829061,Completed,0
+MPLADS-RD-00271,Maharashtra,Kolhapur,Kolhapur,Municipal Corporation,State Highway Link,8.11,186.74,176.36,141,169,2022-11-28,2023-05-16,16.754037,74.232021,Completed,0
+MPLADS-RD-00272,Tamil Nadu,Coimbatore,Coimbatore,Rural Engineering Services,State Highway Link,14.8,223.98,107.94,153,95,2021-02-24,,11.014561,76.973845,Ongoing,0
+MPLADS-RD-00273,Punjab,Amritsar,Amritsar,Municipal Corporation,District Road,3.42,27.91,27.34,80,93,2022-12-01,2023-03-04,31.597306,74.848845,Completed,0
+MPLADS-RD-00274,Telangana,Hyderabad,Hyderabad,District Rural Development Agency (DRDA),Urban Internal Road,2.32,29.53,11.19,55,45,2020-03-10,,17.287024,78.579416,Ongoing,0
+MPLADS-RD-00275,Odisha,Ganjam,Berhampur,Block Development Office,Rural Link Road,5.46,31.91,13.87,88,45,2019-12-28,,19.265932,84.782837,Ongoing,0
+MPLADS-RD-00276,Telangana,Warangal,Warangal,State PWD Division,Village Road,1.3,5.29,3.03,49,30,2020-05-09,,17.84911,79.489276,Ongoing,0
+MPLADS-RD-00277,Bihar,Gaya,Gaya,Municipal Corporation,Rural Link Road,5.48,20.9,20.99,133,153,2020-06-19,2020-11-19,24.860229,84.986631,Completed,0
+MPLADS-RD-00278,Gujarat,Vadodara,Vadodara,Panchayati Raj Engineering Department,State Highway Link,13.06,122.35,89.53,213,100,2021-02-27,,22.401241,73.196594,Ongoing,0
+MPLADS-RD-00279,Punjab,Amritsar,Amritsar,Municipal Corporation,Rural Link Road,1.0,3.61,3.48,58,58,2025-06-10,2025-08-07,31.522838,74.988954,Completed,0
+MPLADS-RD-00280,Karnataka,Hubballi-Dharwad,Dharwad,State PWD Division,State Highway Link,7.41,138.95,77.82,131,59,2023-06-26,,15.492842,75.104852,Ongoing,0
+MPLADS-RD-00281,Telangana,Warangal,Warangal,State PWD Division,Village Road,2.12,7.74,7.86,70,79,2024-10-14,2025-01-01,17.906409,79.666086,Completed,0
+MPLADS-RD-00282,Uttarakhand,Dehradun,Tehri Garhwal,State PWD Division,Rural Link Road,3.91,28.34,29.68,80,89,2020-05-17,2020-08-14,30.34306,78.051935,Completed,0
+MPLADS-RD-00283,Tamil Nadu,Chennai,Chennai Central,CPWD Division,State Highway Link,2.84,49.18,52.21,84,88,2023-02-09,2023-05-08,13.080505,80.295055,Completed,0
+MPLADS-RD-00284,West Bengal,Malda,Maldaha Uttar,Panchayati Raj Engineering Department,Rural Link Road,1.22,7.56,7.74,64,62,2023-06-18,2023-08-19,24.858019,88.03874,Completed,0
+MPLADS-RD-00285,Haryana,Gurugram,Gurgaon,Rural Engineering Services,State Highway Link,8.86,119.7,118.84,67,78,2020-09-26,2020-12-13,28.537406,77.027263,Completed,0
+MPLADS-RD-00286,Chhattisgarh,Durg,Durg,Zilla Parishad,Village Road,2.42,11.09,10.7,76,80,2023-06-28,2023-09-16,21.250182,81.289493,Completed,0
+MPLADS-RD-00287,Maharashtra,Thane,Thane,Zilla Parishad,Village Road,2.92,13.7,5.62,109,63,2025-05-31,,19.295853,73.077153,Ongoing,0
+MPLADS-RD-00288,Bihar,Muzaffarpur,Muzaffarpur,Zilla Parishad,District Road,6.86,42.45,26.42,113,56,2024-12-04,,26.114621,85.356736,Ongoing,0
+MPLADS-RD-00289,Jharkhand,Dhanbad,Dhanbad,Rural Engineering Services,Rural Link Road,2.71,13.22,12.83,72,78,2022-07-02,2022-09-18,23.82306,86.378603,Completed,0
+MPLADS-RD-00290,Telangana,Karimnagar,Karimnagar,State PWD Division,State Highway Link,10.79,117.67,118.87,78,80,2019-07-13,2019-10-01,18.606401,78.987855,Delayed,1
+MPLADS-RD-00291,Jharkhand,Dhanbad,Dhanbad,State PWD Division,Rural Link Road,0.93,5.76,5.4,45,44,2023-07-07,2023-08-20,23.894046,86.478367,Completed,0
+MPLADS-RD-00292,Haryana,Hisar,Hisar,Panchayati Raj Engineering Department,District Road,9.17,102.01,102.45,175,223,2020-05-08,2020-12-17,29.132765,75.645698,Delayed,0
+MPLADS-RD-00293,Tamil Nadu,Salem,Salem,Municipal Corporation,Rural Link Road,3.64,22.43,23.27,95,127,2019-09-25,2020-01-30,11.841432,78.109844,Delayed,0
+MPLADS-RD-00294,Punjab,Amritsar,Amritsar,Block Development Office,State Highway Link,10.73,248.13,245.86,163,177,2021-07-10,2022-01-03,31.701727,74.826625,Completed,0
+MPLADS-RD-00295,Assam,Dibrugarh,Dibrugarh,Block Development Office,Urban Internal Road,1.95,25.25,25.46,52,70,2021-05-16,2021-07-25,27.349145,94.908773,Delayed,0
+MPLADS-RD-00296,Haryana,Hisar,Hisar,Rural Engineering Services,Urban Internal Road,0.7,6.08,5.31,51,44,2024-12-13,2025-01-26,29.117041,75.741228,Completed,0
+MPLADS-RD-00297,West Bengal,Kolkata,Kolkata Dakshin,Block Development Office,Urban Internal Road,1.89,20.78,18.15,45,44,2024-11-02,2024-12-16,22.569486,88.338857,Completed,0
+MPLADS-RD-00298,Chhattisgarh,Bilaspur,Bilaspur,Block Development Office,Urban Internal Road,2.53,28.33,26.82,53,73,2022-12-06,2023-02-17,22.070657,82.259798,Delayed,0
+MPLADS-RD-00299,Jharkhand,Ranchi,Ranchi,Municipal Corporation,Village Road,1.0,3.88,4.07,47,48,2020-02-14,2020-04-02,23.357246,85.258361,Completed,0
+MPLADS-RD-00300,Chhattisgarh,Durg,Durg,Block Development Office,Village Road,3.09,13.51,13.73,84,83,2020-09-15,2020-12-07,21.076501,81.320606,Completed,0
+MPLADS-RD-00301,Odisha,Cuttack,Cuttack,State PWD Division,State Highway Link,7.11,111.58,114.83,105,108,2021-05-02,2021-08-18,20.428695,85.892504,Completed,0
+MPLADS-RD-00302,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Municipal Corporation,Village Road,1.68,7.82,8.02,71,127,2023-07-03,2023-11-07,29.336945,79.460574,Delayed,0
+MPLADS-RD-00303,Madhya Pradesh,Gwalior,Gwalior,CPWD Division,Urban Internal Road,1.8,18.19,18.02,57,69,2021-06-18,2021-08-26,26.255701,78.114057,Delayed,0
+MPLADS-RD-00304,Gujarat,Bhavnagar,Bhavnagar,CPWD Division,District Road,5.52,65.04,61.36,115,118,2022-12-12,2023-04-09,21.721436,72.14888,Completed,0
+MPLADS-RD-00305,Madhya Pradesh,Gwalior,Gwalior,Block Development Office,Urban Internal Road,2.75,36.11,16.32,59,52,2019-10-03,,26.14599,78.161982,Ongoing,0
+MPLADS-RD-00306,Bihar,Darbhanga,Darbhanga,Panchayati Raj Engineering Department,Village Road,3.92,13.79,16.55,95,102,2020-04-27,2020-08-07,26.182182,85.886095,Completed,0
+MPLADS-RD-00307,Tamil Nadu,Madurai,Madurai,Rural Engineering Services,Village Road,0.61,1.79,1.79,47,70,2022-04-22,2022-07-01,9.99938,78.261464,Delayed,0
+MPLADS-RD-00308,Rajasthan,Bikaner,Bikaner,Rural Engineering Services,Urban Internal Road,0.59,4.49,4.6,45,59,2023-12-18,2024-02-15,27.965816,73.099763,Delayed,0
+MPLADS-RD-00309,Chhattisgarh,Durg,Durg,Zilla Parishad,Village Road,1.27,13.66,13.5,63,67,2024-05-18,2024-07-24,21.192454,81.267565,Completed,1
+MPLADS-RD-00310,Odisha,Cuttack,Cuttack,Zilla Parishad,Village Road,0.94,15.97,16.95,119,169,2023-11-08,2024-04-25,20.386029,85.888939,Completed,1
+MPLADS-RD-00311,Gujarat,Bhavnagar,Bhavnagar,Zilla Parishad,District Road,9.83,101.09,109.58,162,170,2022-03-23,2022-09-09,21.652687,72.074902,Completed,0
+MPLADS-RD-00312,Uttarakhand,Dehradun,Tehri Garhwal,Municipal Corporation,District Road,7.52,61.59,61.51,98,97,2020-12-15,2021-03-22,30.325667,78.058595,Completed,0
+MPLADS-RD-00313,Uttar Pradesh,Agra,Agra,Municipal Corporation,Urban Internal Road,2.36,31.54,35.32,55,51,2024-08-30,2024-10-20,27.283595,78.107936,Completed,0
+MPLADS-RD-00314,Bihar,Muzaffarpur,Muzaffarpur,Panchayati Raj Engineering Department,District Road,1.62,17.24,17.3,45,41,2023-12-29,2024-02-08,26.097778,85.37677,Completed,0
+MPLADS-RD-00315,Tamil Nadu,Madurai,Madurai,CPWD Division,State Highway Link,11.97,175.33,74.92,199,113,2023-04-25,,9.837286,78.076495,Ongoing,0
+MPLADS-RD-00316,Haryana,Karnal,Karnal,Block Development Office,Rural Link Road,4.69,32.21,31.8,90,99,2021-05-15,2021-08-22,29.657411,76.902181,Completed,0
+MPLADS-RD-00317,Assam,Kamrup Metropolitan,Guwahati,State PWD Division,State Highway Link,12.87,187.49,177.46,191,186,2020-06-18,2020-12-21,26.137651,91.5811,Completed,0
+MPLADS-RD-00318,Rajasthan,Jaipur,Jaipur,Block Development Office,State Highway Link,7.85,156.4,170.28,142,175,2023-05-16,2023-11-07,26.942351,75.837859,Completed,0
+MPLADS-RD-00319,Gujarat,Bhavnagar,Bhavnagar,District Rural Development Agency (DRDA),Rural Link Road,3.69,19.6,19.83,109,96,2022-10-07,2023-01-11,21.843625,71.932795,Completed,0
+MPLADS-RD-00320,Odisha,Cuttack,Cuttack,Panchayati Raj Engineering Department,State Highway Link,11.86,159.74,154.91,170,168,2019-06-20,2019-12-05,20.492842,85.985986,Completed,0
+MPLADS-RD-00321,Telangana,Karimnagar,Karimnagar,Zilla Parishad,Urban Internal Road,1.68,17.13,17.57,48,56,2021-05-16,2021-07-11,18.323498,79.16236,Completed,0
+MPLADS-RD-00322,Telangana,Hyderabad,Hyderabad,Panchayati Raj Engineering Department,Village Road,2.42,5.24,5.0,58,60,2024-11-29,2025-01-28,17.427904,78.455833,Completed,0
+MPLADS-RD-00323,Telangana,Warangal,Warangal,Panchayati Raj Engineering Department,State Highway Link,14.33,193.73,138.71,198,104,2022-03-18,,18.002697,79.652182,Ongoing,0
+MPLADS-RD-00324,Karnataka,Belagavi,Belgaum,CPWD Division,Village Road,2.36,12.76,13.49,76,89,2024-05-15,2024-08-12,15.825311,74.455552,Completed,0
+MPLADS-RD-00325,Chhattisgarh,Durg,Durg,CPWD Division,Village Road,2.03,8.67,8.07,67,67,2023-07-26,2023-10-01,21.141273,81.156195,Completed,0
+MPLADS-RD-00326,Tamil Nadu,Madurai,Madurai,State PWD Division,Rural Link Road,3.83,20.41,21.98,104,110,2021-06-29,2021-10-17,9.892373,78.255185,Completed,0
+MPLADS-RD-00327,Madhya Pradesh,Ujjain,Ujjain,District Rural Development Agency (DRDA),Rural Link Road,5.41,29.38,31.91,122,146,2022-05-03,2022-09-26,23.216483,75.654171,Completed,0
+MPLADS-RD-00328,Bihar,Darbhanga,Darbhanga,Block Development Office,Rural Link Road,0.94,6.08,4.62,63,46,2022-09-27,,26.199513,85.844144,Ongoing,0
+MPLADS-RD-00329,Haryana,Karnal,Karnal,Panchayati Raj Engineering Department,Urban Internal Road,1.1,13.59,13.08,52,61,2024-01-12,2024-03-13,29.666767,76.848041,Delayed,0
+MPLADS-RD-00330,Maharashtra,Nagpur,Nagpur,Zilla Parishad,Rural Link Road,1.41,9.72,17.33,46,49,2021-04-21,2021-06-09,21.129272,79.144553,Completed,1
+MPLADS-RD-00331,Jharkhand,Ranchi,Ranchi,CPWD Division,Village Road,0.67,1.83,0.75,53,31,2019-07-29,,23.284702,85.315533,Ongoing,0
+MPLADS-RD-00332,Assam,Kamrup Metropolitan,Guwahati,State PWD Division,Rural Link Road,1.44,8.74,8.71,60,63,2024-05-19,2024-07-21,26.153714,91.711853,Completed,0
+MPLADS-RD-00333,Assam,Jorhat,Jorhat,CPWD Division,Urban Internal Road,0.66,20.51,20.25,45,66,2019-12-23,2020-02-27,26.841464,94.174725,Delayed,1
+MPLADS-RD-00334,Bihar,Muzaffarpur,Muzaffarpur,Municipal Corporation,Urban Internal Road,1.73,25.09,24.39,45,52,2021-10-07,2021-11-28,26.167712,85.182449,Completed,0
+MPLADS-RD-00335,Tamil Nadu,Coimbatore,Coimbatore,State PWD Division,District Road,8.58,95.82,35.72,137,85,2021-02-02,,11.025632,76.923133,Ongoing,0
+MPLADS-RD-00336,Assam,Silchar,Silchar,District Rural Development Agency (DRDA),Village Road,3.7,13.21,12.68,93,107,2021-04-12,2021-07-28,24.857577,92.819821,Delayed,0
+MPLADS-RD-00337,Tamil Nadu,Chennai,Chennai Central,Rural Engineering Services,District Road,1.56,8.23,8.09,45,67,2021-07-10,2021-09-15,13.001133,80.283949,Delayed,0
+MPLADS-RD-00338,Punjab,Jalandhar,Jalandhar,Municipal Corporation,State Highway Link,12.82,188.62,116.19,165,99,2024-10-28,,31.323844,75.593428,Ongoing,0
+MPLADS-RD-00339,Bihar,Patna,Patna Sahib,Zilla Parishad,Urban Internal Road,10.29,17.06,15.72,45,40,2024-08-23,2024-10-02,25.619978,85.132996,Completed,1
+MPLADS-RD-00340,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Zilla Parishad,Village Road,1.88,8.43,3.64,58,40,2023-05-16,,29.369276,79.445705,Ongoing,0
+MPLADS-RD-00341,Karnataka,Kalaburagi,Gulbarga,Panchayati Raj Engineering Department,State Highway Link,8.54,174.48,196.1,114,121,2025-05-26,2025-09-24,17.440505,76.862658,Completed,0
+MPLADS-RD-00342,Chhattisgarh,Raipur,Raipur,Municipal Corporation,Rural Link Road,4.1,26.18,12.44,129,74,2023-09-04,,21.167347,81.489719,Ongoing,0
+MPLADS-RD-00343,Haryana,Karnal,Karnal,Zilla Parishad,Urban Internal Road,0.69,7.87,7.87,45,44,2019-09-02,2019-10-16,29.59352,76.971265,Completed,0
+MPLADS-RD-00344,Rajasthan,Udaipur,Udaipur,Block Development Office,State Highway Link,13.6,820.01,953.58,207,97,2022-04-01,,24.645624,73.798252,Ongoing,1
+MPLADS-RD-00345,Maharashtra,Nagpur,Nagpur,State PWD Division,Village Road,3.17,19.89,17.44,92,126,2024-07-22,2024-11-25,21.16666,79.085512,Delayed,0
+MPLADS-RD-00346,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,Municipal Corporation,Village Road,0.63,2.36,2.34,45,46,2020-07-08,2020-08-23,29.374796,79.390369,Completed,0
+MPLADS-RD-00347,Kerala,Kozhikode,Kozhikode,Rural Engineering Services,State Highway Link,4.24,65.71,70.85,63,77,2019-07-28,2019-10-13,11.292034,75.785997,Delayed,0
+MPLADS-RD-00348,Jharkhand,Dhanbad,Dhanbad,Rural Engineering Services,Village Road,2.85,8.91,3.72,111,66,2021-02-11,,23.753024,86.397469,Ongoing,0
+MPLADS-RD-00349,Tamil Nadu,Coimbatore,Coimbatore,Panchayati Raj Engineering Department,Village Road,1.35,3.56,2.49,57,30,2019-06-11,,11.031797,76.875578,Ongoing,0
+MPLADS-RD-00350,Punjab,Jalandhar,Jalandhar,Block Development Office,Rural Link Road,1.92,11.67,12.15,45,45,2021-01-02,2021-02-16,31.298102,75.539212,Completed,0
+MPLADS-RD-00351,Telangana,Warangal,Warangal,Rural Engineering Services,Village Road,3.32,8.81,7.67,87,120,2021-01-17,2021-05-17,18.170298,79.744248,Delayed,0
+MPLADS-RD-00352,Assam,Kamrup Metropolitan,Guwahati,State PWD Division,Rural Link Road,5.81,41.49,19.36,100,53,2023-05-11,,26.330982,91.801756,Ongoing,0
+MPLADS-RD-00353,Maharashtra,Thane,Thane,State PWD Division,State Highway Link,12.21,348.8,358.69,164,230,2021-11-29,2022-07-17,19.154543,73.047475,Delayed,0
+MPLADS-RD-00354,Assam,Jorhat,Jorhat,State PWD Division,Urban Internal Road,0.77,10.79,6.71,45,33,2025-04-27,,26.75066,94.285261,Ongoing,0
+MPLADS-RD-00355,Kerala,Ernakulam,Ernakulam,CPWD Division,Urban Internal Road,2.55,33.76,35.62,56,49,2021-09-23,2021-11-11,9.878249,76.32811,Completed,0
+MPLADS-RD-00356,Bihar,Patna,Patna Sahib,Rural Engineering Services,State Highway Link,6.32,121.31,129.52,119,176,2021-08-16,2022-02-08,25.513085,85.147728,Delayed,0
+MPLADS-RD-00357,Tamil Nadu,Chennai,Chennai Central,Rural Engineering Services,Village Road,2.22,7.62,8.24,70,94,2021-10-26,2022-01-28,13.169019,80.136156,Delayed,0
+MPLADS-RD-00358,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,District Rural Development Agency (DRDA),District Road,4.22,37.91,40.51,104,109,2023-04-25,2023-08-12,10.796789,78.635676,Completed,0
+MPLADS-RD-00359,Madhya Pradesh,Gwalior,Gwalior,Zilla Parishad,State Highway Link,11.5,235.78,230.21,174,155,2020-07-18,2020-12-20,26.151778,78.040691,Completed,0
+MPLADS-RD-00360,Maharashtra,Thane,Thane,Rural Engineering Services,State Highway Link,7.23,165.85,174.0,121,159,2022-09-12,2023-02-18,19.141659,72.899452,Completed,0
+MPLADS-RD-00361,Chhattisgarh,Durg,Durg,Zilla Parishad,State Highway Link,12.42,214.0,156.16,191,119,2019-06-25,,21.311951,81.063144,Ongoing,0
+MPLADS-RD-00362,West Bengal,Malda,Maldaha Uttar,Block Development Office,Village Road,3.13,13.27,14.17,73,84,2023-08-14,2023-11-06,25.112918,88.258601,Completed,0
+MPLADS-RD-00363,Gujarat,Ahmedabad,Ahmedabad East,District Rural Development Agency (DRDA),District Road,6.38,73.45,69.56,124,143,2023-06-08,2023-10-29,23.033124,72.423182,Completed,0
+MPLADS-RD-00364,Jharkhand,Dhanbad,Dhanbad,CPWD Division,Village Road,0.54,3.02,3.11,45,48,2021-03-21,2021-05-08,23.635418,86.55874,Completed,0
+MPLADS-RD-00365,Telangana,Karimnagar,Karimnagar,Rural Engineering Services,District Road,9.55,81.79,82.04,133,171,2021-03-03,2021-08-21,18.538377,79.353812,Delayed,0
+MPLADS-RD-00366,Jharkhand,Ranchi,Ranchi,State PWD Division,State Highway Link,14.86,295.95,150.21,223,134,2024-10-14,,23.49893,85.31067,Ongoing,0
+MPLADS-RD-00367,Uttarakhand,Nainital,Nainital-Udhamsingh Nagar,District Rural Development Agency (DRDA),Village Road,2.47,9.71,9.86,55,50,2022-02-27,2022-04-18,29.34392,79.583806,Completed,0
+MPLADS-RD-00368,Bihar,Gaya,Gaya,District Rural Development Agency (DRDA),Village Road,1.18,4.6,4.67,50,53,2022-01-24,2022-03-18,24.651462,85.150844,Completed,0
+MPLADS-RD-00369,Maharashtra,Aurangabad,Aurangabad,State PWD Division,Urban Internal Road,2.58,40.56,36.29,73,75,2020-05-08,2020-07-22,20.001462,75.383993,Completed,0
+MPLADS-RD-00370,Maharashtra,Kolhapur,Kolhapur,CPWD Division,District Road,9.0,89.76,88.74,118,114,2021-05-30,2021-09-21,16.710862,74.246302,Completed,0
+MPLADS-RD-00371,Rajasthan,Jodhpur,Jodhpur,Block Development Office,Village Road,0.61,2.63,4.78,45,42,2021-06-01,2021-07-13,26.326995,72.982641,Completed,1
+MPLADS-RD-00372,Karnataka,Hubballi-Dharwad,Dharwad,Zilla Parishad,State Highway Link,10.47,180.8,170.11,192,188,2025-04-24,2025-10-29,15.435635,75.045148,Completed,0
+MPLADS-RD-00373,Haryana,Karnal,Karnal,State PWD Division,District Road,4.96,59.89,58.14,112,152,2022-07-06,2022-12-05,29.769351,76.921273,Delayed,0
+MPLADS-RD-00374,Gujarat,Vadodara,Vadodara,CPWD Division,Rural Link Road,1.95,12.24,12.29,61,55,2021-01-18,2021-03-14,22.3644,73.113198,Completed,0
+MPLADS-RD-00375,Odisha,Ganjam,Berhampur,Rural Engineering Services,District Road,9.74,96.77,98.62,137,161,2022-07-15,2022-12-23,19.400377,84.80194,Completed,0
+MPLADS-RD-00376,Assam,Kamrup Metropolitan,Guwahati,Panchayati Raj Engineering Department,State Highway Link,7.77,98.5,101.96,143,167,2025-01-24,2025-07-10,26.070052,91.714799,Completed,0
+MPLADS-RD-00377,Haryana,Faridabad,Faridabad,Block Development Office,State Highway Link,6.29,135.3,129.01,104,103,2020-07-15,2020-10-26,28.377809,77.435991,Completed,0
+MPLADS-RD-00378,Tamil Nadu,Salem,Salem,District Rural Development Agency (DRDA),State Highway Link,4.46,85.86,87.93,117,139,2020-10-23,2021-03-11,11.732559,78.203527,Delayed,0
+MPLADS-RD-00379,Rajasthan,Jaipur,Jaipur,CPWD Division,State Highway Link,2.25,36.82,37.39,65,96,2022-03-20,2022-06-24,26.891486,75.73454,Delayed,0
+MPLADS-RD-00380,Uttarakhand,Dehradun,Tehri Garhwal,Municipal Corporation,State Highway Link,2.32,30.58,29.59,56,60,2019-08-05,2019-10-04,30.345662,77.974119,Completed,0
+MPLADS-RD-00381,Uttar Pradesh,Varanasi,Varanasi,District Rural Development Agency (DRDA),State Highway Link,14.46,399.44,401.82,186,194,2023-08-28,2024-03-09,25.1974,82.736738,Completed,0
+MPLADS-RD-00382,Kerala,Kozhikode,Kozhikode,Rural Engineering Services,Rural Link Road,5.6,37.05,25.15,153,99,2025-05-18,,11.345121,75.684593,Ongoing,0
+MPLADS-RD-00383,Odisha,Ganjam,Berhampur,Block Development Office,State Highway Link,13.82,224.21,223.26,147,159,2022-07-27,2023-01-02,19.477706,84.787132,Completed,0
+MPLADS-RD-00384,West Bengal,Darjeeling,Darjeeling,Rural Engineering Services,Rural Link Road,3.47,18.25,17.19,47,45,2021-01-30,2021-03-16,27.16087,88.229593,Completed,0
+MPLADS-RD-00385,Assam,Kamrup Metropolitan,Guwahati,Block Development Office,Rural Link Road,1.19,5.0,9.05,48,30,2019-09-03,2019-10-12,26.088402,91.771305,Delayed,1
+MPLADS-RD-00386,Rajasthan,Kota,Kota,State PWD Division,Urban Internal Road,1.73,14.8,14.72,51,68,2020-11-22,2021-01-29,25.202756,75.839306,Completed,0
+MPLADS-RD-00387,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,Rural Engineering Services,District Road,3.38,108.03,115.84,78,88,2022-05-18,2022-08-14,10.632207,78.77881,Completed,1
+MPLADS-RD-00388,Jharkhand,Jamshedpur (East Singhbhum),Jamshedpur,Zilla Parishad,Urban Internal Road,0.94,10.04,4.08,45,30,2020-01-27,,22.830284,86.254285,Ongoing,0
+MPLADS-RD-00389,Odisha,Sambalpur,Sambalpur,Rural Engineering Services,District Road,3.86,46.37,41.95,94,79,2021-10-27,2022-01-14,21.633058,83.98115,Completed,0
+MPLADS-RD-00390,Rajasthan,Jaipur,Jaipur,CPWD Division,State Highway Link,12.34,215.98,221.15,171,170,2022-06-11,2022-11-28,26.909892,75.671824,Completed,0
+MPLADS-RD-00391,Odisha,Khordha,Bhubaneswar,District Rural Development Agency (DRDA),Rural Link Road,4.96,24.11,24.45,102,176,2019-12-28,2020-06-21,20.259691,85.805342,Delayed,0
+MPLADS-RD-00392,Tamil Nadu,Coimbatore,Coimbatore,CPWD Division,District Road,6.27,62.45,59.6,108,159,2020-07-06,2020-12-12,11.085847,76.890666,Delayed,0
+MPLADS-RD-00393,Uttar Pradesh,Agra,Agra,CPWD Division,Village Road,1.8,8.46,4.14,61,30,2024-08-19,,27.167151,77.878427,Ongoing,0
+MPLADS-RD-00394,Tamil Nadu,Chennai,Chennai Central,District Rural Development Agency (DRDA),Urban Internal Road,2.62,34.75,38.0,72,69,2021-02-21,2021-05-01,13.121419,80.249834,Completed,0
+MPLADS-RD-00395,Chhattisgarh,Durg,Durg,Block Development Office,Village Road,3.69,17.51,18.83,114,159,2023-02-09,2023-07-18,21.143948,81.340474,Delayed,0
+MPLADS-RD-00396,Assam,Silchar,Silchar,Panchayati Raj Engineering Department,District Road,7.6,78.44,75.21,122,121,2023-01-06,2023-05-07,24.946902,92.631617,Completed,0
+MPLADS-RD-00397,Madhya Pradesh,Jabalpur,Jabalpur,CPWD Division,Rural Link Road,5.89,31.64,33.84,102,105,2021-12-12,2022-03-27,23.151944,80.009745,Completed,0
+MPLADS-RD-00398,West Bengal,Darjeeling,Darjeeling,Zilla Parishad,District Road,9.93,72.36,78.32,151,172,2023-10-31,2024-04-20,27.098044,88.204607,Completed,0
+MPLADS-RD-00399,Maharashtra,Aurangabad,Aurangabad,Rural Engineering Services,Urban Internal Road,0.57,6.57,6.64,49,80,2024-04-01,2024-06-20,19.996369,75.258913,Delayed,0
+MPLADS-RD-00400,Karnataka,Mysuru,Mysore,Rural Engineering Services,Village Road,0.83,4.5,4.49,54,78,2023-02-12,2023-05-01,12.265425,76.669556,Delayed,0
+MPLADS-RD-00401,Punjab,Jalandhar,Jalandhar,Panchayati Raj Engineering Department,Urban Internal Road,1.69,19.43,18.81,45,56,2024-03-17,2024-05-12,31.356892,75.57846,Completed,0
+MPLADS-RD-00402,Assam,Silchar,Silchar,Panchayati Raj Engineering Department,Village Road,1.8,6.0,5.99,70,69,2023-03-20,2023-05-28,24.738504,92.701691,Completed,0
+MPLADS-RD-00403,Uttarakhand,Dehradun,Tehri Garhwal,Municipal Corporation,Rural Link Road,2.4,11.09,6.03,81,55,2020-11-06,,30.323661,78.013219,Ongoing,0
+MPLADS-RD-00404,Uttar Pradesh,Varanasi,Varanasi,District Rural Development Agency (DRDA),Urban Internal Road,0.53,5.8,5.99,47,44,2019-06-24,2019-08-07,25.358833,82.927697,Completed,0
+MPLADS-RD-00405,Madhya Pradesh,Jabalpur,Jabalpur,Panchayati Raj Engineering Department,Rural Link Road,2.85,21.44,9.83,77,50,2019-09-08,,23.294405,79.979373,Ongoing,0
+MPLADS-RD-00406,Telangana,Hyderabad,Hyderabad,State PWD Division,Urban Internal Road,1.65,13.92,13.89,61,91,2022-12-23,2023-03-24,17.378904,78.512556,Delayed,0
+MPLADS-RD-00407,Uttar Pradesh,Prayagraj,Phulpur,Rural Engineering Services,District Road,9.22,83.85,86.64,183,198,2022-11-16,2023-06-02,25.334359,81.626326,Completed,0
+MPLADS-RD-00408,Assam,Jorhat,Jorhat,Zilla Parishad,Village Road,2.33,7.09,7.28,88,115,2023-07-22,2023-11-14,26.781768,94.142655,Delayed,0
+MPLADS-RD-00409,Rajasthan,Udaipur,Udaipur,Panchayati Raj Engineering Department,State Highway Link,14.82,251.31,222.82,289,272,2022-09-18,2023-06-17,24.624995,73.66257,Completed,0
+MPLADS-RD-00410,Assam,Dibrugarh,Dibrugarh,Municipal Corporation,Rural Link Road,1.94,11.09,12.05,46,66,2019-06-29,2019-09-03,27.482268,94.947578,Delayed,0
+MPLADS-RD-00411,Rajasthan,Kota,Kota,State PWD Division,Rural Link Road,2.94,17.04,17.5,68,88,2023-01-22,2023-04-20,25.357663,75.960111,Delayed,0
+MPLADS-RD-00412,Telangana,Warangal,Warangal,Municipal Corporation,District Road,5.82,73.71,90.33,117,384,2020-01-20,2021-02-07,18.013233,79.534205,Delayed,1
+MPLADS-RD-00413,Jharkhand,Dhanbad,Dhanbad,Municipal Corporation,Urban Internal Road,0.46,4.77,5.1,45,59,2024-06-30,2024-08-28,23.839101,86.692082,Delayed,0
+MPLADS-RD-00414,Assam,Silchar,Silchar,CPWD Division,Rural Link Road,1.24,6.89,6.84,50,54,2023-12-26,2024-02-18,24.772882,92.559737,Completed,0
+MPLADS-RD-00415,Bihar,Patna,Patna Sahib,Panchayati Raj Engineering Department,District Road,0.69,258.45,268.46,261,465,2023-02-06,2024-05-16,25.68754,85.036233,Delayed,1
+MPLADS-RD-00416,Telangana,Nizamabad,Nizamabad,Municipal Corporation,State Highway Link,6.47,115.32,128.98,112,106,2020-03-11,2020-06-25,18.545944,78.094864,Completed,0
+MPLADS-RD-00417,Kerala,Ernakulam,Ernakulam,Municipal Corporation,District Road,8.6,59.19,58.65,192,212,2024-10-06,2025-05-06,9.964005,76.327221,Completed,0
+MPLADS-RD-00418,Uttar Pradesh,Varanasi,Varanasi,Panchayati Raj Engineering Department,State Highway Link,2.71,36.06,34.9,69,65,2021-10-26,2021-12-30,25.381887,83.111562,Completed,0
+MPLADS-RD-00419,Maharashtra,Pune,Pune,Block Development Office,Village Road,2.48,9.92,21.99,81,78,2020-02-20,2020-05-08,18.582588,73.913617,Completed,1
+MPLADS-RD-00420,Haryana,Karnal,Karnal,Municipal Corporation,District Road,6.33,56.13,56.68,104,152,2024-08-04,2025-01-03,29.569128,76.964926,Delayed,0
+MPLADS-RD-00421,Maharashtra,Pune,Pune,Municipal Corporation,State Highway Link,3.91,66.72,67.91,53,72,2023-12-21,2024-03-02,18.467507,73.70903,Delayed,0
+MPLADS-RD-00422,Uttarakhand,Dehradun,Tehri Garhwal,District Rural Development Agency (DRDA),Rural Link Road,5.09,22.64,20.77,121,124,2020-03-21,2020-07-23,30.222775,78.00274,Completed,0
+MPLADS-RD-00423,Tamil Nadu,Chennai,Chennai Central,State PWD Division,Village Road,1.37,4.49,4.35,53,48,2021-04-24,2021-06-11,13.220791,80.117455,Completed,0
+MPLADS-RD-00424,Karnataka,Kalaburagi,Gulbarga,CPWD Division,District Road,3.27,30.38,31.31,69,66,2021-03-10,2021-05-15,17.310926,76.93124,Completed,0
+MPLADS-RD-00425,Kerala,Thrissur,Thrissur,Block Development Office,State Highway Link,3.3,106.84,105.62,65,85,2023-11-20,2024-02-13,10.388481,76.144595,Delayed,1
+MPLADS-RD-00426,West Bengal,Howrah,Howrah,State PWD Division,Urban Internal Road,1.38,20.28,21.67,45,42,2022-03-04,2022-04-15,22.706852,88.23827,Completed,0
+MPLADS-RD-00427,Haryana,Hisar,Hisar,CPWD Division,Village Road,1.0,1.41,1.4,62,75,2025-02-23,2025-05-09,29.131003,75.761797,Completed,0
+MPLADS-RD-00428,Chhattisgarh,Bilaspur,Bilaspur,State PWD Division,Village Road,3.67,11.91,7.41,115,67,2023-01-31,,22.091486,82.101513,Ongoing,0
+MPLADS-RD-00429,Punjab,Patiala,Patiala,CPWD Division,Village Road,3.95,11.11,11.61,85,99,2021-11-10,2022-02-17,30.188196,76.396258,Completed,0
+MPLADS-RD-00430,Assam,Silchar,Silchar,Zilla Parishad,State Highway Link,3.49,73.95,77.78,94,130,2021-02-17,2021-06-27,24.763215,92.729329,Delayed,0
+MPLADS-RD-00431,Maharashtra,Thane,Thane,Rural Engineering Services,Urban Internal Road,0.96,8.16,7.89,51,63,2022-02-21,2022-04-25,19.05927,72.856908,Delayed,0
+MPLADS-RD-00432,Punjab,Jalandhar,Jalandhar,Block Development Office,Urban Internal Road,1.32,11.51,3.86,53,30,2020-01-09,,31.429481,75.468192,Ongoing,0
+MPLADS-RD-00433,Madhya Pradesh,Bhopal,Bhopal,Rural Engineering Services,Urban Internal Road,2.68,42.14,52.29,69,267,2021-11-14,2022-08-08,23.340675,77.296484,Delayed,1
+MPLADS-RD-00434,Odisha,Sambalpur,Sambalpur,District Rural Development Agency (DRDA),Village Road,0.57,2.2,2.14,58,78,2020-07-01,2020-09-17,21.460919,83.96808,Delayed,0
+MPLADS-RD-00435,Uttarakhand,Haridwar,Haridwar,Block Development Office,Urban Internal Road,2.37,29.04,26.27,58,57,2021-07-18,2021-09-13,29.88684,78.220308,Completed,0
+MPLADS-RD-00436,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,District Rural Development Agency (DRDA),State Highway Link,4.8,91.54,88.87,93,91,2024-10-06,2025-01-05,10.754734,78.721543,Completed,0
+MPLADS-RD-00437,Madhya Pradesh,Indore,Indore,Rural Engineering Services,Village Road,2.19,8.82,3.71,89,71,2022-01-02,,22.770412,75.839922,Ongoing,0
+MPLADS-RD-00438,Bihar,Gaya,Gaya,Rural Engineering Services,Rural Link Road,4.33,18.21,9.98,128,83,2021-08-15,,24.822671,85.014284,Ongoing,0
+MPLADS-RD-00439,Gujarat,Ahmedabad,Ahmedabad East,Zilla Parishad,Rural Link Road,5.2,25.76,27.98,121,163,2024-09-27,2025-03-09,23.004465,72.469239,Delayed,0
+MPLADS-RD-00440,Chhattisgarh,Durg,Durg,Municipal Corporation,Village Road,0.75,3.91,3.64,51,59,2021-01-26,2021-03-26,21.15449,81.40569,Completed,0
+MPLADS-RD-00441,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,Municipal Corporation,Village Road,1.45,6.22,5.71,68,69,2024-07-10,2024-09-17,10.662484,78.643742,Completed,0
+MPLADS-RD-00442,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,Zilla Parishad,District Road,6.42,64.64,73.32,140,432,2022-06-06,2023-08-12,10.765426,78.608578,Delayed,1
+MPLADS-RD-00443,Haryana,Karnal,Karnal,State PWD Division,State Highway Link,14.76,298.09,286.63,218,364,2023-04-09,2024-04-07,29.706316,76.94917,Delayed,0
+MPLADS-RD-00444,Odisha,Ganjam,Berhampur,Panchayati Raj Engineering Department,State Highway Link,4.32,79.66,83.93,111,120,2023-03-13,2023-07-11,19.249757,84.836225,Completed,0
+MPLADS-RD-00445,Uttarakhand,Haridwar,Haridwar,CPWD Division,Rural Link Road,1.93,3.76,3.95,74,94,2024-09-11,2024-12-14,29.946653,78.322696,Delayed,0
+MPLADS-RD-00446,Maharashtra,Pune,Pune,Zilla Parishad,Urban Internal Road,1.93,20.32,20.1,58,46,2022-11-26,2023-01-11,18.521354,73.857744,Completed,0
+MPLADS-RD-00447,Assam,Dibrugarh,Dibrugarh,Municipal Corporation,Village Road,1.01,2.86,2.86,45,45,2022-10-08,2022-11-22,27.372047,94.806947,Completed,0
+MPLADS-RD-00448,Gujarat,Ahmedabad,Ahmedabad East,State PWD Division,District Road,8.77,95.57,100.96,131,150,2023-05-13,2023-10-10,22.98292,72.615716,Completed,0
+MPLADS-RD-00449,Madhya Pradesh,Ujjain,Ujjain,CPWD Division,Rural Link Road,2.28,15.42,19.57,64,171,2024-05-18,2024-11-05,23.12646,75.88555,Delayed,1
+MPLADS-RD-00450,Punjab,Patiala,Patiala,Zilla Parishad,Rural Link Road,1.57,5.96,6.66,51,55,2023-05-02,2023-06-26,30.381328,76.370929,Completed,0
+MPLADS-RD-00451,Rajasthan,Bikaner,Bikaner,Block Development Office,State Highway Link,9.26,21.56,22.54,45,38,2020-05-14,2020-06-21,27.955392,73.361681,Delayed,1
+MPLADS-RD-00452,Karnataka,Bengaluru Urban,Bangalore North,Block Development Office,State Highway Link,11.01,211.15,117.16,186,110,2023-02-09,,12.796197,77.550754,Ongoing,0
+MPLADS-RD-00453,Haryana,Faridabad,Faridabad,Municipal Corporation,State Highway Link,4.44,76.39,82.94,79,82,2024-08-13,2024-11-03,28.405021,77.280553,Completed,0
+MPLADS-RD-00454,Karnataka,Bengaluru Urban,Bangalore North,Zilla Parishad,Rural Link Road,3.68,30.79,15.22,67,53,2023-08-01,,12.926349,77.682535,Ongoing,0
+MPLADS-RD-00455,Odisha,Cuttack,Cuttack,Panchayati Raj Engineering Department,Rural Link Road,4.23,25.73,17.49,91,37,2020-09-11,,20.459726,85.732154,Ongoing,0
+MPLADS-RD-00456,Uttar Pradesh,Lucknow,Lucknow,State PWD Division,Urban Internal Road,1.06,13.19,12.01,52,74,2024-11-21,2025-02-03,26.899947,81.033023,Delayed,0
+MPLADS-RD-00457,Karnataka,Kalaburagi,Gulbarga,CPWD Division,Urban Internal Road,1.46,13.35,13.62,46,62,2023-09-23,2023-11-24,17.323843,76.864802,Delayed,0
+MPLADS-RD-00458,Gujarat,Vadodara,Vadodara,Zilla Parishad,District Road,9.42,76.5,154.89,123,51,2024-10-26,2024-12-27,22.368267,73.184958,Delayed,1
+MPLADS-RD-00459,Maharashtra,Nagpur,Nagpur,District Rural Development Agency (DRDA),Village Road,2.83,12.25,6.28,96,43,2024-07-01,,21.207332,79.123795,Ongoing,0
+MPLADS-RD-00460,Karnataka,Mysuru,Mysore,Zilla Parishad,District Road,2.84,28.24,27.92,84,108,2022-06-25,2022-10-11,12.236919,76.629014,Delayed,0
+MPLADS-RD-00461,Rajasthan,Udaipur,Udaipur,District Rural Development Agency (DRDA),State Highway Link,4.51,122.57,115.08,80,85,2025-02-24,2025-05-20,24.709391,73.677642,Completed,0
+MPLADS-RD-00462,Assam,Jorhat,Jorhat,Municipal Corporation,Rural Link Road,5.82,35.55,35.42,71,79,2020-02-04,2020-04-23,26.847561,94.382427,Completed,0
+MPLADS-RD-00463,Kerala,Thrissur,Thrissur,Zilla Parishad,Village Road,0.88,2.09,2.23,46,45,2025-06-19,2025-08-03,10.505926,76.140081,Completed,0
+MPLADS-RD-00464,Chhattisgarh,Durg,Durg,District Rural Development Agency (DRDA),State Highway Link,2.88,48.12,47.82,91,96,2019-06-24,2019-09-28,21.208757,81.322463,Completed,0
+MPLADS-RD-00465,Punjab,Ludhiana,Ludhiana,Municipal Corporation,Urban Internal Road,0.63,8.88,7.72,46,61,2024-10-28,2024-12-28,30.886891,75.801958,Delayed,0
+MPLADS-RD-00466,Kerala,Kozhikode,Kozhikode,Municipal Corporation,District Road,7.91,80.79,74.96,128,131,2021-03-25,2021-08-03,11.186072,75.710703,Completed,0
+MPLADS-RD-00467,West Bengal,Howrah,Howrah,CPWD Division,Rural Link Road,5.51,31.56,32.86,97,119,2021-03-16,2021-07-13,22.617666,88.442707,Completed,0
+MPLADS-RD-00468,Kerala,Kozhikode,Kozhikode,Block Development Office,District Road,7.93,71.38,68.02,120,161,2022-06-04,2022-11-12,11.299092,75.865322,Delayed,0
+MPLADS-RD-00469,West Bengal,Kolkata,Kolkata Dakshin,Block Development Office,District Road,3.86,37.99,36.61,78,68,2024-02-16,2024-04-24,22.535953,88.425417,Completed,0
+MPLADS-RD-00470,Assam,Jorhat,Jorhat,District Rural Development Agency (DRDA),Rural Link Road,0.93,4.75,4.49,51,55,2022-10-15,2022-12-09,26.689657,94.275715,Completed,0
+MPLADS-RD-00471,Odisha,Cuttack,Cuttack,Rural Engineering Services,State Highway Link,13.36,226.48,240.24,214,234,2021-04-29,2021-12-19,20.430738,85.834056,Completed,0
+MPLADS-RD-00472,Uttar Pradesh,Varanasi,Varanasi,Zilla Parishad,Rural Link Road,4.0,23.8,21.89,90,103,2020-03-30,2020-07-11,25.348378,82.868013,Completed,0
+MPLADS-RD-00473,Odisha,Sambalpur,Sambalpur,Block Development Office,District Road,2.92,25.3,26.03,62,68,2023-09-24,2023-12-01,21.516947,83.950852,Completed,0
+MPLADS-RD-00474,Haryana,Hisar,Hisar,District Rural Development Agency (DRDA),Village Road,1.46,6.97,7.4,62,68,2021-11-17,2022-01-24,29.121772,75.760075,Completed,0
+MPLADS-RD-00475,Bihar,Gaya,Gaya,Municipal Corporation,State Highway Link,14.0,241.5,232.09,218,246,2019-11-17,2020-07-20,24.722855,85.022075,Delayed,0
+MPLADS-RD-00476,Maharashtra,Kolhapur,Kolhapur,Block Development Office,State Highway Link,4.76,86.99,83.12,76,87,2022-09-13,2022-12-09,16.884434,74.243146,Completed,0
+MPLADS-RD-00477,Maharashtra,Kolhapur,Kolhapur,CPWD Division,Village Road,0.83,2.33,2.44,45,48,2024-06-30,2024-08-17,16.621801,74.303336,Completed,0
+MPLADS-RD-00478,Punjab,Patiala,Patiala,District Rural Development Agency (DRDA),State Highway Link,9.9,214.19,207.85,129,107,2021-11-17,2022-03-04,30.151436,76.370306,Completed,0
+MPLADS-RD-00479,Odisha,Sambalpur,Sambalpur,District Rural Development Agency (DRDA),State Highway Link,8.21,181.96,138.29,114,80,2021-05-17,,21.491063,84.038075,Ongoing,0
+MPLADS-RD-00480,Haryana,Faridabad,Faridabad,State PWD Division,District Road,1.56,12.22,10.95,59,85,2020-09-21,2020-12-15,28.471705,77.240834,Delayed,0
+MPLADS-RD-00481,Odisha,Ganjam,Berhampur,CPWD Division,Urban Internal Road,2.34,40.08,39.7,55,61,2022-11-24,2023-01-24,19.363088,84.697779,Completed,0
+MPLADS-RD-00482,Tamil Nadu,Coimbatore,Coimbatore,State PWD Division,Rural Link Road,3.51,17.68,7.33,92,45,2025-03-30,,11.083283,76.848426,Ongoing,0
+MPLADS-RD-00483,Karnataka,Mysuru,Mysore,Panchayati Raj Engineering Department,Rural Link Road,4.55,23.56,24.59,112,108,2022-06-05,2022-09-21,12.269227,76.855719,Completed,0
+MPLADS-RD-00484,Tamil Nadu,Coimbatore,Coimbatore,Municipal Corporation,State Highway Link,13.63,243.24,242.47,118,136,2023-04-25,2023-09-08,10.933332,76.921696,Completed,0
+MPLADS-RD-00485,Gujarat,Vadodara,Vadodara,Block Development Office,State Highway Link,7.39,122.67,115.44,105,101,2020-01-08,2020-04-18,22.39523,73.235249,Completed,0
+MPLADS-RD-00486,Uttar Pradesh,Lucknow,Lucknow,CPWD Division,Urban Internal Road,2.05,24.28,24.84,51,56,2023-11-23,2024-01-18,26.711783,80.880102,Completed,0
+MPLADS-RD-00487,Telangana,Warangal,Warangal,District Rural Development Agency (DRDA),District Road,4.97,43.36,44.3,107,120,2023-07-03,2023-10-31,17.866248,79.474066,Completed,0
+MPLADS-RD-00488,Tamil Nadu,Tiruchirappalli,Tiruchirappalli,CPWD Division,State Highway Link,8.26,137.49,144.48,154,155,2020-02-17,2020-07-21,10.679259,78.6896,Completed,0
+MPLADS-RD-00489,Kerala,Ernakulam,Ernakulam,Municipal Corporation,Rural Link Road,5.42,28.57,28.7,161,169,2022-08-07,2023-01-23,9.956167,76.23054,Completed,0
+MPLADS-RD-00490,Madhya Pradesh,Jabalpur,Jabalpur,CPWD Division,Rural Link Road,2.5,15.24,16.32,80,88,2024-12-22,2025-03-20,23.058791,80.055506,Completed,0
+MPLADS-RD-00491,Haryana,Faridabad,Faridabad,District Rural Development Agency (DRDA),Rural Link Road,2.03,11.92,6.56,68,52,2024-01-01,,28.398058,77.320725,Ongoing,0
+MPLADS-RD-00492,Odisha,Khordha,Bhubaneswar,Zilla Parishad,Village Road,3.65,5.3,5.55,91,102,2023-12-25,2024-04-05,20.286918,85.951933,Delayed,0
+MPLADS-RD-00493,West Bengal,Kolkata,Kolkata Dakshin,Zilla Parishad,District Road,8.95,82.04,86.41,128,126,2021-03-03,2021-07-07,22.523242,88.442794,Completed,0
+MPLADS-RD-00494,West Bengal,Malda,Maldaha Uttar,Block Development Office,State Highway Link,2.31,44.36,40.2,60,64,2023-03-01,2023-05-04,25.043116,88.186337,Completed,0
+MPLADS-RD-00495,Punjab,Jalandhar,Jalandhar,Zilla Parishad,State Highway Link,13.87,258.4,151.96,224,113,2025-01-18,,31.357365,75.657063,Ongoing,0
+MPLADS-RD-00496,Assam,Kamrup Metropolitan,Guwahati,Rural Engineering Services,District Road,5.28,53.72,56.0,53,69,2021-02-12,2021-04-22,26.055536,91.80303,Delayed,0
+MPLADS-RD-00497,Odisha,Cuttack,Cuttack,Municipal Corporation,Rural Link Road,1.48,9.81,9.78,56,59,2023-10-17,2023-12-15,20.535188,85.885487,Completed,0
+MPLADS-RD-00498,Jharkhand,Dhanbad,Dhanbad,Rural Engineering Services,State Highway Link,3.79,55.21,55.32,102,112,2024-03-20,2024-07-10,23.854162,86.304637,Delayed,0
+MPLADS-RD-00499,Punjab,Amritsar,Amritsar,Zilla Parishad,Village Road,3.98,16.56,11.78,112,83,2022-08-27,,31.770541,74.889596,Ongoing,0
+MPLADS-RD-00500,Bihar,Bhagalpur,Bhagalpur,Zilla Parishad,State Highway Link,2.51,28.99,30.16,68,70,2025-06-03,2025-08-12,25.131006,87.059607,Delayed,0

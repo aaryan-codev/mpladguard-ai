@@ -21,40 +21,47 @@ def _safe_float(value, default=0.0) -> float:
 
 @router.get("/summary")
 def dashboard_summary():
+    """
+    Aggregates over the canonical (road) project records. Only metrics
+    that are actually derivable from real dataset fields are returned --
+    no sanctioned/released/utilized fund figures, since the current
+    road dataset has no fund-flow columns (see the schema audit).
+    """
     total, projects = project_service.list_projects(limit=10_000)
 
-    total_sanctioned = sum(_safe_float(p.get("sanctioned_amount")) for p in projects)
-    total_utilized = sum(_safe_float(p.get("utilized_amount")) for p in projects)
-    completed = sum(1 for p in projects if str(p.get("work_status", "")).lower() == "completed")
-    ongoing = sum(1 for p in projects if str(p.get("work_status", "")).lower() == "ongoing")
-    delayed = sum(1 for p in projects if _safe_float(p.get("delay_days")) > 30)
+    total_estimated_cost_lakh = sum(_safe_float(p["financial"]["estimated_cost_lakh"]) for p in projects)
+    total_actual_cost_lakh = sum(_safe_float(p["financial"]["actual_expenditure_lakh"]) for p in projects)
+    completed = sum(1 for p in projects if p["work_status"] == "Completed")
+    ongoing = sum(1 for p in projects if p["work_status"] == "Ongoing")
+    delayed = sum(1 for p in projects if p["work_status"] == "Delayed")
 
     return {
         "total_projects": total,
-        "total_sanctioned_amount": round(total_sanctioned, 2),
-        "total_utilized_amount": round(total_utilized, 2),
+        "total_estimated_cost_lakh": round(total_estimated_cost_lakh, 2),
+        "total_actual_expenditure_lakh": round(total_actual_cost_lakh, 2),
         "completed_projects": completed,
         "ongoing_projects": ongoing,
         "delayed_projects": delayed,
+        "currency_unit": "INR_lakh",
     }
 
 
 @router.get("/risk-distribution")
 def risk_distribution():
     """
-    Runs (or reuses cached) risk analysis across all known projects and
-    returns a LOW/MEDIUM/HIGH count breakdown. Projects that fail
-    validation/analysis are skipped and counted separately rather than
-    silently dropped.
+    Runs risk analysis across all known projects and returns a
+    LOW/MEDIUM/HIGH count breakdown. Projects that fail validation/
+    analysis are skipped and counted separately rather than silently
+    dropped.
     """
-    _, projects = project_service.list_projects(limit=10_000)
+    ml_payloads = project_service.list_ml_payloads()
 
     counts = {"LOW": 0, "MEDIUM": 0, "HIGH": 0}
     skipped = 0
 
-    for project in projects:
+    for payload in ml_payloads:
         try:
-            assessment = risk_service.analyze(project)
+            assessment = risk_service.analyze(payload)
             counts[assessment.risk_level] += 1
         except MLModelUnavailableError as exc:
             raise HTTPException(status_code=503, detail=str(exc))
@@ -67,20 +74,35 @@ def risk_distribution():
 
 @router.get("/financial-summary")
 def financial_summary():
-    _, projects = project_service.list_projects(limit=10_000)
+    total, projects = project_service.list_projects(limit=10_000)
 
-    estimated = sum(_safe_float(p.get("estimated_cost")) for p in projects)
-    actual = sum(_safe_float(p.get("actual_cost")) for p in projects)
-    sanctioned = sum(_safe_float(p.get("sanctioned_amount")) for p in projects)
-    released = sum(_safe_float(p.get("released_amount")) for p in projects)
-    utilized = sum(_safe_float(p.get("utilized_amount")) for p in projects)
+    estimated = sum(_safe_float(p["financial"]["estimated_cost_lakh"]) for p in projects)
+    actual = sum(_safe_float(p["financial"]["actual_expenditure_lakh"]) for p in projects)
 
     return {
-        "total_estimated_cost": round(estimated, 2),
-        "total_actual_cost": round(actual, 2),
-        "total_sanctioned_amount": round(sanctioned, 2),
-        "total_released_amount": round(released, 2),
-        "total_utilized_amount": round(utilized, 2),
+        "total_estimated_cost_lakh": round(estimated, 2),
+        "total_actual_expenditure_lakh": round(actual, 2),
         "cost_overrun_pct": round(100.0 * (actual - estimated) / estimated, 2) if estimated else 0.0,
-        "fund_utilization_pct": round(100.0 * utilized / released, 2) if released else 0.0,
+        "currency_unit": "INR_lakh",
     }
+
+
+@router.get("/status-distribution")
+def status_distribution():
+    """State-of-work breakdown -- used by the dashboard's status pie/bar chart."""
+    _, projects = project_service.list_projects(limit=10_000)
+    counts: dict[str, int] = {}
+    for p in projects:
+        status = p["work_status"]
+        counts[status] = counts.get(status, 0) + 1
+    return {"distribution": counts, "total": len(projects)}
+
+
+@router.get("/state-distribution")
+def state_distribution():
+    """Project count per state -- used by the dashboard's state-wise chart/map summary."""
+    _, projects = project_service.list_projects(limit=10_000)
+    counts: dict[str, int] = {}
+    for p in projects:
+        counts[p["state"]] = counts.get(p["state"], 0) + 1
+    return {"distribution": counts, "total": len(projects)}
